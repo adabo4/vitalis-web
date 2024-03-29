@@ -49,7 +49,8 @@ export const LogoSlider = () => {
                               alt="Avene" />
                     </div>
                     <div>
-                         <img src={`${process.env.PUBLIC_URL}/assets/images/ducray.png`} />
+                         <img src={`${process.env.PUBLIC_URL}/assets/images/ducray.png`}
+                              alt="Ducray" />
                     </div>
                     <div>
                          <img className="img-fluid"

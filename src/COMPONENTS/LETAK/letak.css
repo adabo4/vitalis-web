@@ -8,6 +8,11 @@ body {
 
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
 
 .container-letak {
   text-align: center;

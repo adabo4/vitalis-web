@@ -10,6 +10,7 @@ import { useState } from 'react';
 
 function App() {
   const [showLetakPartner, setShowLetakPartner] = useState(false);
+
   const [showPoukazky, setShowPoukazky] = useState(false);
 
   return (
@@ -38,7 +39,7 @@ function App() {
       <Footer>
       </Footer> */}
       <TopNav></TopNav>
-      <NavBar setShowLetakPartner={setShowLetakPartner} setShowPoukazky={setShowPoukazky}></NavBar>
+      <NavBar setShowLetakPartner={setShowLetakPartner} setShowPoukazky={setShowPoukazky} showLetakPartner={showLetakPartner}></NavBar>
 
 
       <Routes>

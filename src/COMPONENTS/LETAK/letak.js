@@ -48,8 +48,8 @@ const LetakPartner = () => {
 
           IMAGES && IMAGES.map((item) =>
 
-            <a data-lg-size="1240-1750" className="gallery-item" data-src={item.image}>
-              <img className="img-responsive" src={item.image} alt={item.name} style={customStyle} /></a>
+            <button data-lg-size="1240-1750" className="gallery-item" data-src={item.image}>
+              <img className="img-responsive" src={item.image} alt={item.name} style={customStyle} /></button>
 
 
 
