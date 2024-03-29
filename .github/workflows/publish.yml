@@ -3,7 +3,7 @@ name: Generate a build and push to another branch
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -20,10 +20,7 @@ jobs:
         run: npm run build # The build command of your project
 
       - name: Push
-        uses: s0/git-publish-subdir-action@develop
+        uses: peaceiris/actions-gh-pages@v3
         env:
-          REPO: self
-          BRANCH: build # The branch name where you want to push the assets
-          FOLDER: build # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          MESSAGE: "Build: ({sha}) {msg}" # The commit message
+          publish_dir: ./build
