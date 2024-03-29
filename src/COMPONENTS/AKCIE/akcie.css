@@ -1,0 +1,38 @@
+.akcie-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.akcie-container p {
+    max-width: 80em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.akcie-container h1 {
+    border-bottom: 3px solid rgb(64,187,192);
+}
+
+.akcie-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.akcie-box img {
+    max-width: 25em;
+    max-height: 20em;
+}
+
+@media screen and (max-width:420px) {
+    .akcie-box img {
+        max-width: 20em;
+        max-height: 15em;
+    }
+}

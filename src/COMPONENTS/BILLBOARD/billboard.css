@@ -1,0 +1,141 @@
+.bill-container {
+    width: 100%;
+
+}
+
+.bill-background {
+    background-image: url("../img/Lekaren5v8final.jpg");
+    animation: change 66s infinite;
+    background-position: center;
+    background-size: cover;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bill-info {
+    text-align: center;
+    margin-bottom: 3em;
+    background-color: rgba(255, 255, 255, 0.844);
+    border-top: 5px solid rgb(64, 187, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    flex-wrap: wrap;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: 0 0 30px black;
+}
+
+.bill-info p {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-bottom: 15px;
+
+}
+
+.bill-info h1 {
+    line-height: normal;
+    text-shadow: 0 0 15px rgba(16, 16, 16, 0.407);
+
+}
+
+.bill-info h2 {
+    background-color: rgb(64, 187, 192);
+    color: aliceblue;
+    font-size: 1.1em;
+    border-radius: 4px;
+    padding: .1em .6em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+.bill-info h2:hover {
+    background-color: aliceblue;
+    color: rgb(64, 187, 192);
+    transition: .3s linear;
+}
+
+@media screen and (max-width: 1000px) {
+    .bill-container {
+        margin-top: 1em;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+
+
+    .bill-container {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .bill-info h1 {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .bill-info p {
+        font-size: .9em;
+    }
+
+    .bill-info {
+        margin-bottom: 8em;
+    }
+
+}
+
+@keyframes change {
+    0% {
+        background-image: url("../img/Lekaren5v8final.jpg");
+    }
+
+    10% {
+        background-image: url('../img/ZADNE_DEMO_COMP.jpg');
+    }
+
+    20% {
+        background-image: url("../img/Lekaren5v8final.jpg");
+    }
+
+    30% {
+        background-image: url('../img/ZADNE_DEMO_COMP.jpg');
+    }
+
+    40% {
+        background-image: url("../img/Lekaren5v8final.jpg");
+    }
+
+    50% {
+        background-image: url('../img/ZADNE_DEMO_COMP.jpg');
+    }
+
+    60% {
+        background-image: url("../img/Lekaren5v8final.jpg");
+    }
+
+    70% {
+        background-image: url('../img/ZADNE_DEMO_COMP.jpg');
+    }
+
+    80% {
+        background-image: url("../img/Lekaren5v8final.jpg");
+    }
+
+    90% {
+        background-image: url('../img/ZADNE_DEMO_COMP.jpg');
+    }
+
+    100% {
+        background-image: url("../img/Lekaren5v8final.jpg");
+    }
+
+
+}
