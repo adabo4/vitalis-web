@@ -1,18 +1,10 @@
 
-import { useEffect } from 'react';
 import TopNav from './COMPONENTS/TOPNAV/TopNav';
 import NavBar from './COMPONENTS/NAVBAR/NavBar';
 import { Routes, Route } from 'react-router-dom'
 import Gdpr from './COMPONENTS/GDPR/Gdpr';
 import Home from './Home';
 import { useState } from 'react';
-import ReactGA from "react-ga4";
-import ConsentBanner from './COMPONENTS/CONSENT BANNER/ConsentBanner';
-import CookieConsent, {
-  getCookieConsentValue,
-  Cookies,
-  resetCookieConsentValue
-} from "react-cookie-consent";
 import GoogleAnalytics from "./COMPONENTS/GOOGLEANALYTICS/GoogleAnalytics"
 import CookieBanner from './COMPONENTS/CookieBanner/CookieBanner';
 import CookiesAbout from './COMPONENTS/CookiesAbout/CookiesAbout';

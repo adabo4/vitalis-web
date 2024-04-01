@@ -1,11 +1,9 @@
 import React from 'react'
-import CookieBanner from '../CookieBanner/CookieBanner'
-import ToggleButton from './ToggleButton'
 import "./cookiesAbout.css"
 import { FaGreaterThan } from "react-icons/fa"
 import './toggleButton.css'; // Import the CSS file
 import { useEffect, useState } from 'react';
-import { getLocalStorage, setLocalStorage } from '../../lib/storageHelper';
+import { setLocalStorage } from '../../lib/storageHelper';
 import setCookie from "../../lib/cookieHelper"
 import Footer from '../FOOTER/Footer'
 import { Link } from 'react-router-dom'
@@ -17,16 +15,20 @@ export default function CookiesAbout({ setShowBanner }) {
     const [cookieConsent, setCookieConsent] = useState(false);
     const [pendingConsent, setPendingConsent] = useState(false);
 
+
+
     const handleToggle = () => {
         setCookieConsent(!cookieConsent);
         setPendingConsent(true);
-        console.log(cookieConsent)
+
 
     };
 
+
     const handleSave = () => {
         setLocalStorage("cookie_consent", cookieConsent);
-        setPendingConsent(false); // Reset pending consent
+        setPendingConsent(!pendingConsent); // Reset pending consent
+
 
         if (cookieConsent) {
             // Set the "consent" cookie when user grants consent
@@ -58,6 +60,7 @@ export default function CookiesAbout({ setShowBanner }) {
         setShowBanner(false);
 
     };
+
 
     useEffect(() => {
         const storedCookieConsent = localStorage.getItem("cookie_consent");

@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './toggleButton.css'; // Import the CSS file
-import { useEffect } from 'react';
-import { getLocalStorage, setLocalStorage } from '../../lib/storageHelper';
-import setCookie from "../../lib/cookieHelper"
-import { FaGreaterThan } from "react-icons/fa"
+
 
 export default function ToggleButton({ handleSave, handleToggle, cookieConsent, handleMapToggle, cookieConsentGoogleMap }) {
 

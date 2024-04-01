@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 import './footer.css'
 import { AiOutlineHome } from 'react-icons/ai'
@@ -6,9 +6,7 @@ import { BsFacebook } from 'react-icons/bs'
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react'
 import { HashLink } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
-import setCookie from '../../lib/cookieHelper';
-import { setLocalStorage } from '../../lib/storageHelper';
+
 
 const Footer = () => {
 

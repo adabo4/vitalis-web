@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './cookieBanner.css'; // Import the CSS file
-import { Link } from 'react-router-dom';
 import { setLocalStorage, getLocalStorage } from '../../lib/storageHelper';
 import setCookie from '../../lib/cookieHelper';
 import { HashLink } from 'react-router-hash-link';
-import { FaGreaterThan } from "react-icons/fa"
 
 const CookieBanner = ({ showBanner, setShowBanner }) => {
     const [cookieConsent, setCookieConsent] = useState(null);
@@ -26,7 +24,7 @@ const CookieBanner = ({ showBanner, setShowBanner }) => {
         if ((!cookieConsent && consentExpiration !== null && new Date(consentExpiration) < new Date())) {
             setShowBanner(true);
         }
-    }, []);
+    }, [cookieConsent, setShowBanner]);
 
     useEffect(() => {
         const consentExpiration = getCookieExpiration("consent");
@@ -34,7 +32,7 @@ const CookieBanner = ({ showBanner, setShowBanner }) => {
             setCookieConsent(null);
             setShowBanner(true);
         }
-    }, [cookieConsent]);
+    }, [cookieConsent, setShowBanner]);
 
 
 

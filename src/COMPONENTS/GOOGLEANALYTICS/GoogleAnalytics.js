@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { pageview } from '../../lib/gtagHelper';
 import { useLocation } from 'react-router-dom';
 const GoogleAnalytics = ({ GA_MEASUREMENT_ID }) => {
