@@ -1,0 +1,102 @@
+/* CSS for the toggle button */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Allura&family=Annie+Use+Your+Telescope&family=Anton&family=Babylonica&family=Cabin+Sketch:wght@700&family=Cinzel&family=Homemade+Apple&family=Indie+Flower&family=Josefin+Sans:ital,wght@1,600&family=Julee&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Lora:wght@400;700&family=Merriweather:wght@300&family=PT+Serif:ital,wght@0,700;1,700&family=Pacifico&family=Patrick+Hand&family=Rock+Salt&family=Rubik+Vinyl&family=Tilt+Warp&family=Varela+Round&display=swap');
+
+.toggle-container {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+
+}
+
+/* Hide the default checkbox */
+.toggle-container input[type="checkbox"] {
+    display: none;
+}
+
+/* Style the toggle circle */
+.toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9f9f9;
+    /* Grey background */
+    border-radius: 10px;
+    /* Half of height for circle effect */
+    transition: .4s;
+    /* Smooth transition */
+}
+
+/* Style the small white circle inside the toggle */
+.toggle::before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    /* Height of circle */
+    width: 14px;
+    /* Width of circle */
+    left: 2px;
+    /* Initial position */
+    bottom: 2px;
+    /* Initial position */
+    background-color: #ccc;
+    border-radius: 50%;
+    /* Circular shape */
+    transition: .4s;
+    /* Smooth transition */
+}
+
+/* When toggle is checked, move the white circle to the right */
+input[type="checkbox"]:checked+.toggle::before {
+    transform: translateX(20px);
+    background-color: white;
+
+
+    /* Move to right */
+}
+
+.toggle-btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    position: relative;
+    margin: 1em;
+}
+
+.toggle-btn:hover .fa-icon {
+    transform: translateX(8px);
+    transition: linear 1s ease-in-out;
+    transition: transform 250ms;
+
+}
+
+.toggled {
+    background-color: rgb(5, 171, 180);
+}
+
+
+.fa-icon {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    margin-left: 5px;
+
+
+}
+
+.toggle-btn-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+}

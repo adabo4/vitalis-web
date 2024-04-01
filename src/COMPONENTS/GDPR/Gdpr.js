@@ -2,6 +2,7 @@ import React from 'react'
 import "./Gdpr.css";
 import titleUnderline from '../img/title-underline.png'
 import Footer from '../FOOTER/Footer';
+import { Link } from 'react-router-dom';
 
 
 export default function Gdpr() {
@@ -300,6 +301,11 @@ export default function Gdpr() {
                                         údajov
                                         zverejní na svojej internetovej stránke.
                                     </p>
+                                </li>
+
+                                <li>
+                                    <h3>Nastavenia cookies</h3>
+                                    <p><Link to="/cookies">Prečítajte si viac o využívaní súborov cookie</Link></p>
                                 </li>
 
                             </ol>
