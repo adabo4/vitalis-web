@@ -16,6 +16,15 @@ jobs:
       - name: Install all dependencies
         run: npm install
 
+      - name: Load environment variables
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+        env:
+          GITHUB_ENV: .env  # Load environment variables from .env file
+          NPM_CONFIG_PACKAGE_LOCK: false
+
       - name: Build
         run: npm run build # The build command of your project
 
