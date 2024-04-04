@@ -35,6 +35,35 @@ const NavBar = ({ setShowLetakPartner, setShowPoukazky }) => {
 
   // }
 
+  const letakClick = () => {
+    window.gtag('event', 'link_click', {
+      'event_category': 'Navigation',
+      'event_label': 'Letak Link Clicked'
+    });
+    setShowLetakPartner(true)
+
+  };
+  const navClick = (category, action) => {
+    window.gtag('event', 'link_click', {
+      'event_category': category,
+      'event_label': action
+    });
+
+
+  };
+
+  const poukazkyClick = () => {
+    window.gtag('event', 'link_click', {
+      'event_category': 'Navigation',
+      'event_label': 'Poukážky Link Clicked'
+    });
+    setShowPoukazky(true)
+
+  };
+
+
+
+
   return (
 
     <div className='nav-container' id='navbar'>
@@ -46,14 +75,14 @@ const NavBar = ({ setShowLetakPartner, setShowPoukazky }) => {
         </h2>
       </div>
       <ul className={`${show ? "nav-list show" : "nav-list hide"}`}>
-        <li><HashLink to="/" style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Domov</HashLink></li>
-        <li><HashLink to="/onas#onas" style={customStyle} spy={true} smooth={true} offset={50} duration={500}>O Nás</HashLink></li>
-        <li><HashLink to="/dermocentrum#dermocentrum" style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Dermocentrum</HashLink></li>
-        <li><HashLink to="/letak#letak" style={customStyle} onClick={() => setShowLetakPartner(true)} spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+        <li><HashLink to="/" onClick={() => navClick("Navigation", "Home link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Domov</HashLink></li>
+        <li><HashLink to="/onas#onas" onClick={() => navClick("Navigation", "O nás link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>O Nás</HashLink></li>
+        <li><HashLink to="/dermocentrum#dermocentrum" onClick={() => navClick("Navigation", "Dermocentrum link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Dermocentrum</HashLink></li>
+        <li><HashLink to="/letak#letak" style={customStyle} onClick={letakClick} spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
           Leták</HashLink></li>
         {/* <li><Link to={"/kontakt#kontakt"} onClick={() => showit()}>kon</Link></li> */}
-        <li><HashLink to="/poukazky#poukazky" style={customStyle} onClick={() => { setShowPoukazky(true) }} spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Poukážky</HashLink></li>
-        <li><HashLink to="/kontakt#kontakt" style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Kontakt</HashLink></li>
+        <li><HashLink to="/poukazky#poukazky" style={customStyle} onClick={poukazkyClick} spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Poukážky</HashLink></li>
+        <li><HashLink to="/kontakt#kontakt" onClick={() => navClick("Navigation", "Kontakt link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Kontakt</HashLink></li>
 
 
       </ul>

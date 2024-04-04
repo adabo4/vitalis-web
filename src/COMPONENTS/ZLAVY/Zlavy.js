@@ -4,9 +4,6 @@ import './zlavy.css';
 import zlavyimg from "./zlavyimg";
 
 
-
-
-
 const Zlavy = () => {
     return (
         <div className='akcie-container' id='zlavy'>
@@ -21,7 +18,9 @@ const Zlavy = () => {
                     {
                         zlavyimg.map((item, i) => {
                             return (
-                                <a key={item.id} href={item.src} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt}></img></a>
+                                <div className="one-img">
+                                    <a key={item.id} href={item.src} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt}></img></a>
+                                </div>
                             )
 
 

@@ -6,6 +6,15 @@ import { HashLink } from 'react-router-hash-link'
 
 const Olekarni = () => {
 
+    const trackClick = () => {
+        window.gtag('event', 'link_click', {
+            'event_category': 'Navigation',
+            'event_label': 'Letak Link Clicked'
+        });
+    };
+
+
+
     return (
         <>
 
@@ -40,7 +49,7 @@ const Olekarni = () => {
                         </div>
                         <div className='right2'>
                             <p>
-                                Ak Vás zaujímajú akcie, môžete nahliadnuť do <HashLink to="/letak#letak" spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>letáka Partner</HashLink>, ktorý Vám prináša atraktívne zľavy na každý mesiac.
+                                Ak Vás zaujímajú akcie, môžete nahliadnuť do <HashLink to="/letak#letak" onClick={trackClick} spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>letáka Partner</HashLink>, ktorý Vám prináša atraktívne zľavy na každý mesiac.
                                 Okrem toho Vás prostredníctvom stránky a sociálnych sietí budeme pravidelne informovať aj o iných prebiehajúcich akciách na kozmetiku a doplnkový sortiment.
                             </p>
                         </div>

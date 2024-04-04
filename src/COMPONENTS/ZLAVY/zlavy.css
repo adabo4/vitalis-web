@@ -30,18 +30,26 @@
     flex-wrap: wrap;
     margin-top: .5em;
 
+
 }
 
-.zlavy-images img {
+.zlavy-images .one-img {
     width: 18em;
     height: 18em;
-    object-fit: cover;
+    margin-right: 2em;
+    overflow: hidden;
     margin-right: 2em;
     border: 2px solid rgba(77, 77, 77, 0.44);
     box-shadow: 0 10px 20px rgba(33, 33, 33, 0.593);
     margin-bottom: 2em;
 }
 
+.zlavy-images img {
+    width: 18em;
+    height: 18em;
+    object-fit: cover;
+    transition: transform 0.3s ease-in
+}
 
 
 
@@ -52,10 +60,10 @@
     animation: move infinite 7s linear;
 } */
 
-.zlavy-images a:first-child img {
-    object-fit: contain;
-}
+.zlavy-images a img:hover {
+    transform: scale(1.05);
 
+}
 
 
 @keyframes move {
@@ -75,10 +83,10 @@
 
 
 
-.zlavy-images img:hover {
+/* .zlavy-images img:hover {
     transform: scale(1.05);
     transition: ease-in-out .3s;
-}
+} */
 
 .oznamy {
     display: flex;

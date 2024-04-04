@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './cookieBanner.css'; // Import the CSS file
+import './cookieBanner.css';
 import { setLocalStorage, getLocalStorage } from '../../lib/storageHelper';
 import setCookie from '../../lib/cookieHelper';
 import { HashLink } from 'react-router-hash-link';
@@ -7,16 +7,12 @@ import { HashLink } from 'react-router-hash-link';
 const CookieBanner = ({ showBanner, setShowBanner }) => {
     const [cookieConsent, setCookieConsent] = useState(null);
 
-    //const [showBanner, setShowBanner] = useState(false);
-
     useEffect(() => {
         const storedCookieConsent = getLocalStorage("cookie_consent", null);
 
         if (storedCookieConsent !== null) {
             setCookieConsent(storedCookieConsent);
         }
-
-
 
         const consentExpiration = getCookieExpiration("consent");
 
