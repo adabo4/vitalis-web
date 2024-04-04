@@ -16,7 +16,7 @@ function App() {
 
   const [showBanner, setShowBanner] = useState(true);
 
-  const GoogleAnalyticsID = process.env.REACT_APP_GOOGLE_ANALYTICS_ID;
+  const GoogleAnalyticsID = "G-29PVXGWYQM";
 
   return (
     <div className="App">
