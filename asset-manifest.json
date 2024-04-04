@@ -1,18 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.1f98b81f.css",
-    "main.js": "/static/js/main.f7ae657a.js",
+    "main.js": "/static/js/main.6c6c20db.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/ZADNE_DEMO_COMP.jpg": "/static/media/ZADNE_DEMO_COMP.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/PREDNA_LEKAREN_COMP.jpg": "/static/media/PREDNA_LEKAREN_COMP.bbfdaab9686d8677d1eb.jpg",
+    "static/media/bioderma.png": "/static/media/bioderma.c4cf7abc061c187f53b9.png",
+    "static/media/bioderma2.png": "/static/media/bioderma2.e2f26a39d23711281e85.png",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
     "static/media/cerave.jpg": "/static/media/cerave.2c2009160b61968dd831.jpg",
-    "static/media/lrp.jpg": "/static/media/lrp.c903c908375f241cc22f.jpg",
-    "static/media/klorane.jpg": "/static/media/klorane.09eae6ee206e0ad9c7e0.jpg",
-    "static/media/ducray.jpg": "/static/media/ducray.1a2152f0c6b141f05261.jpg",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
-    "static/media/aderma.jpg": "/static/media/aderma.411e374d0be2d64eb210.jpg",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
     "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
@@ -25,11 +23,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.1f98b81f.css.map": "/static/css/main.1f98b81f.css.map",
-    "main.f7ae657a.js.map": "/static/js/main.f7ae657a.js.map",
+    "main.6c6c20db.js.map": "/static/js/main.6c6c20db.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f98b81f.css",
-    "static/js/main.f7ae657a.js"
+    "static/js/main.6c6c20db.js"
   ]
 }
