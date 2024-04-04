@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f98b81f.css",
-    "main.js": "/static/js/main.6c6c20db.js",
+    "main.css": "/static/css/main.399028f8.css",
+    "main.js": "/static/js/main.e50a37ec.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/ZADNE_DEMO_COMP.jpg": "/static/media/ZADNE_DEMO_COMP.bd5f1d12cc4c54c65c19.jpg",
+    "static/media/avene.jpg": "/static/media/avene.8da46f122a650a7e739f.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/PREDNA_LEKAREN_COMP.jpg": "/static/media/PREDNA_LEKAREN_COMP.bbfdaab9686d8677d1eb.jpg",
     "static/media/bioderma.png": "/static/media/bioderma.c4cf7abc061c187f53b9.png",
+    "static/media/avene2.jpg": "/static/media/avene2.a75ac6a98adf161c4b06.jpg",
+    "static/media/aderma.jpg": "/static/media/aderma.096c449f5ecdd521ac91.jpg",
     "static/media/bioderma2.png": "/static/media/bioderma2.e2f26a39d23711281e85.png",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
-    "static/media/cerave.jpg": "/static/media/cerave.2c2009160b61968dd831.jpg",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
@@ -22,12 +24,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.1f98b81f.css.map": "/static/css/main.1f98b81f.css.map",
-    "main.6c6c20db.js.map": "/static/js/main.6c6c20db.js.map",
+    "main.399028f8.css.map": "/static/css/main.399028f8.css.map",
+    "main.e50a37ec.js.map": "/static/js/main.e50a37ec.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f98b81f.css",
-    "static/js/main.6c6c20db.js"
+    "static/css/main.399028f8.css",
+    "static/js/main.e50a37ec.js"
   ]
 }
