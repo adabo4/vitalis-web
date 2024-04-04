@@ -16,15 +16,6 @@ jobs:
       - name: Install all dependencies
         run: npm install
 
-      - name: Load environment variables
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-          cache: 'npm'
-        env:
-          GITHUB_ENV: .env  # Load environment variables from .env file
-          NPM_CONFIG_PACKAGE_LOCK: false
-
       - name: Build
         run: npm run build # The build command of your project
 
@@ -35,5 +26,6 @@ jobs:
           BRANCH: build # The branch name where you want to push the assets
           FOLDER: build # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
+          GOOGLE_ANALYTICS_ID: ${{ secrets.REACT_APP_GOOGLE_ANALYTICS_ID }} # Accessing the secret  
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
           
