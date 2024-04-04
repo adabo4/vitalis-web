@@ -7,15 +7,15 @@ import zlava3 from '../img/unnamed (3).jpg'
 const Akcie = () => {
   return (
     <div className='akcie-container' id='zlavy'>
-     <h1>AKTUÁLNE ZĽAVY</h1>
-     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas. Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
-    <div className='akcie-box'>
-       <img src={zlava1} alt=''></img>
-      <img src={zlava2} alt=''></img>
-      <img src={zlava3} alt=''></img> 
-      <img src={zlava2} alt=''></img>
-      <img src={zlava3} alt=''></img> 
-    </div>
+      <h1>AKTUÁLNE ZĽAVY</h1>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas. Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+      <div className='akcie-box'>
+        <img src={zlava1} alt=''></img>
+        <img src={zlava2} alt=''></img>
+        <img src={zlava3} alt=''></img>
+        <img src={zlava2} alt=''></img>
+        <img src={zlava3} alt=''></img>
+      </div>
     </div>
   )
 }
