@@ -36,12 +36,10 @@
 .zlavy-images .one-img {
     width: 18em;
     height: 18em;
-    margin-right: 2em;
     overflow: hidden;
-    margin-right: 2em;
     border: 2px solid rgba(77, 77, 77, 0.44);
     box-shadow: 0 10px 20px rgba(33, 33, 33, 0.593);
-    margin-bottom: 2em;
+    margin: 1em;
 }
 
 .zlavy-images img {
@@ -127,14 +125,6 @@
         width: 80%;
     }
 
-}
-
-
-@media screen and (max-width:710px) {
-
-    .zlavy-images img {
-        margin-right: 0em;
-    }
 }
 
 @media screen and (max-width:500px) {
