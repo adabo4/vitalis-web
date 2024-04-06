@@ -21,11 +21,11 @@ jobs:
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
+        with:
+          repo: adabo4/vitalis-web # Specify your GitHub username and repository name
+          branch: build # The branch name where you want to push the assets
+          folder: build # The directory where your assets are generated
         env:
-          REPO: self
-          BRANCH: build # The branch name where you want to push the assets
-          FOLDER: build # The directory where your assets are generated
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          GOOGLE_ANALYTICS_ID: ${{ secrets.REACT_APP_GOOGLE_ANALYTICS_ID }} # Accessing the secret  
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub token is automatically provided
+          GOOGLE_ANALYTICS_ID: ${{ secrets.REACT_APP_GOOGLE_ANALYTICS_ID }} # Accessing the secret
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
-          
