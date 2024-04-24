@@ -14,11 +14,9 @@ const Footer = () => {
   const year = date.getFullYear();
 
   const form = useRef();
+
   const [isChecked, setIsChecked] = useState(false);
-
   const [isLoading, setIsLoading] = useState(false);
-  const [isLoadingMessage, setIsLoadingMessage] = useState("");
-
   const [values, setValues] = useState({
 
     user_name: "",
@@ -26,7 +24,7 @@ const Footer = () => {
     message: ""
   })
 
-  const { user_name, user_email, message } = values;
+
 
   function isValidEmail(email) {
     const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
