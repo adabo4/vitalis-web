@@ -129,6 +129,11 @@
 
 @media screen and (max-width:500px) {
 
+    .oznamy {
+        min-width: 19em;
+        width: 100%;
+    }
+
     .zlavy-header h1 {
         font-size: 1.5em;
 

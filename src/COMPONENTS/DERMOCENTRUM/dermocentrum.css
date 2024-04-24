@@ -82,7 +82,7 @@
 
 .dermo-footer p {
     text-align: start;
-    width: 23em;
+    max-width: 23em;
     margin-right: 2em;
     margin-top: 2em;
     line-height: 1.6em;
@@ -157,6 +157,21 @@
         max-width: 25em;
         max-height: 15em;
     }
+
+    .dermo-footer {
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .dermo-footer p {
+        max-width: 20em;
+        min-width: 13em;
+        width: 100%;
+        margin: 1em auto;
+
+    }
+
+
 
 }
 

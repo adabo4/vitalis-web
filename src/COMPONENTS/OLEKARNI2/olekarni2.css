@@ -308,11 +308,28 @@
 
 
     .left-text {
-
         font-size: 1em;
     }
 
 
+
+
+}
+
+@media screen and (max-width: 345px) {
+    .left-text {
+        width: 70%;
+        margin: 1em auto;
+    }
+
+    .olekarni-left {
+        margin-right: 0;
+    }
+
+    .olekarni-left img {
+        margin: 1em auto;
+
+    }
 
 
 }

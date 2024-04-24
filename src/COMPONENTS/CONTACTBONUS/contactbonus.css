@@ -6,8 +6,8 @@
 
 
 .contact-container {
-    background-color: rgb(64,187,192);
-    color: rgb(255,255,255);
+    background-color: rgb(64, 187, 192);
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -28,7 +28,6 @@
 
 .info-box {
     width: 15em;
-    height: 15em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,15 +35,13 @@
     margin-right: 3em;
 }
 
-.info-box p {
-   
-}
+.info-box p {}
 
 .special-p {
     width: 15em;
     /* height: 15em; */
     margin-right: 3em;
-    margin-top: -.4em;
+    margin-top: .4em;
 }
 
 .info-box h2 {
@@ -63,11 +60,11 @@
     justify-content: center;
     align-items: center;
     /* font-weight: 500; */
-  /*   font-family: 'Mukta Malar', sans-serif; */
+    /*   font-family: 'Mukta Malar', sans-serif; */
     line-height: 1.4em;
-   /*  font-family: 'Karma', serif; */
+    /*  font-family: 'Karma', serif; */
 
-    
+
 }
 
 .special-p p {
@@ -78,21 +75,22 @@
     box-shadow: 0 0 50px rgba(223, 223, 223, 0.857);
     height: 8.7em;
     box-shadow: 0 0 50px rgba(223, 223, 223, 0.857);
-/*     font-family: 'Mukta Malar', sans-serif; */
+    /*     font-family: 'Mukta Malar', sans-serif; */
     line-height: 1.4em;
     /* font-family: 'Karma', serif; */
 
-    
+
 
 }
 
 .special-p h2 {
     font-size: 3em;
     margin: 0;
+
 }
 
 .special-p a {
-    
+
     color: black;
     font-weight: 700;
 }
@@ -100,5 +98,20 @@
 @media screen and (max-width:640px) {
     .info-box {
         margin-top: 1em;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .info-box {
+        margin-top: 1em;
+        margin-right: 0;
+    }
+
+    .post-cont {
+        margin: 0;
+    }
+
+    .special-p {
+        margin-right: 0;
     }
 }

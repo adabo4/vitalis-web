@@ -16,6 +16,40 @@ const Footer = () => {
   const form = useRef();
   const [isChecked, setIsChecked] = useState(false);
 
+  const [isLoading, setIsLoading] = useState(false);
+  const [isLoadingMessage, setIsLoadingMessage] = useState("");
+
+  const [values, setValues] = useState({
+
+    user_name: "",
+    user_email: "",
+    message: ""
+  })
+
+  const { user_name, user_email, message } = values;
+
+  function isValidEmail(email) {
+    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return pattern.test(email);
+  }
+
+
+  const [errors, setErrors] = useState({
+    user_name: "",
+    user_email: "",
+    message: ""
+  })
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setValues({
+      ...values,
+      [name]: value
+
+    })
+  }
+
+
   const handleCheckboxChange = () => {
     setIsChecked((prevChecked) => !prevChecked);
   };
@@ -24,21 +58,62 @@ const Footer = () => {
     e.preventDefault();
 
     if (isChecked) {
-      emailjs.sendForm('service_9074cvj', 'template_y9nldqv', form.current, 'pruYGhF--wK7yAfB_')
-        .then((result) => {
-          console.log(result.text);
-          alert("Email bol odoslaný.")
+      let newErrors = {};
 
-        }, (error) => {
-          console.log(error.text);
-          alert("Vyskytol sa problém s odoslaním mailu. Na odstránení sa pracuje.");
-        });
-      e.target.reset()
+      if (values.user_name === "") {
+        newErrors = {
+          ...newErrors,
+          user_name: "Prosím zadajte meno."
+        };
+
+
+      }
+
+      if (values.user_email === "" || !isValidEmail(values.user_email)) {
+        newErrors = {
+          ...newErrors,
+          user_email: "Prosím zadajte email v správnom formáte."
+        };
+      }
+
+      if (values.message === "") {
+        newErrors = {
+          ...newErrors,
+          message: "Prosím zadajte text správy."
+        };
+      }
+
+      if (Object.keys(newErrors).length > 0) {
+        setErrors(newErrors);
+      }
+      else {
+        setIsLoading(true);
+        emailjs.sendForm('service_9074cvj', 'template_y9nldqv', form.current, 'pruYGhF--wK7yAfB_')
+          .then((result) => {
+            console.log(result.text);
+            alert("Email bol odoslaný.")
+          },
+            (error) => {
+              console.log(error.text);
+              alert("Vyskytol sa problém s odoslaním mailu. Na odstránení sa pracuje.");
+            })
+          .finally(() => {
+            setIsLoading(false); // Set loading state back to false after email sending completes
+            setValues({
+              ...values,
+              user_name: "",
+              user_email: "",
+              message: ""
+            });
+            setErrors({});
+          });
+      }
     } else {
       alert('Na úspešné odoslanie formulára prosím zaškrtnite Súhlas so spracovaním osobných údajov.');
     };
 
   }
+
 
 
 
@@ -77,18 +152,72 @@ const Footer = () => {
 
             <form className='formular' ref={form} onSubmit={sendEmail}>
               <div className='form-inputs'>
-                <input type="text" placeholder='Meno' name='user_name' required></input>
-                <input type="text" placeholder='Email' name='user_email' required></input>
+                <div className="input-wrapper">
+                  <input type="text" className={errors.user_name ? "error-border" : ""} placeholder='Meno' name='user_name' value={values.user_name} onChange={handleChange} onBlur={
+                    () => {
+                      if (values.user_name === "") {
+                        setErrors({
+                          ...errors,
+                          user_name: "Prosím zadajte meno."
+                        })
+                      } else {
+                        setErrors({
+                          ...errors,
+                          user_name: ""
+                        })
+                      }
+                    }
+                  }>
+
+                  </input>
+                  <label className='error-label'>{errors.user_name}</label>
+                </div>
+                <div className="input-wrapper">
+                  <label className='error-label'>{errors.user_email}</label>
+                  <input type="text" className={errors.user_email ? "error-border" : ""} placeholder='Email' name='user_email' value={values.user_email} onChange={handleChange} onBlur={
+                    () => {
+                      if (values.user_email === "" || !isValidEmail(values.user_email)) {
+                        setErrors({
+                          ...errors,
+                          user_email: "Prosím zadajte email v správnom formáte."
+
+                        })
+                      } else {
+                        setErrors({
+                          ...errors,
+                          user_email: ""
+                        })
+                      }
+                    }
+                  }>
+                  </input>
+                </div>
               </div>
-              <textarea rows="8" placeholder='' name='message' required />
+
+              <div className="textarea-wrapper">
+                <textarea className={errors.message ? "form-textarea error-border" : "form-textarea"} rows="8" placeholder='' name='message' value={values.message} onChange={handleChange} onBlur={
+                  () => {
+                    if (values.message === "") {
+                      setErrors({
+                        ...errors,
+                        message: "Prosím zadajte text správy."
+                      })
+                    } else {
+                      setErrors({
+                        ...errors,
+                        message: ""
+                      })
+                    }
+                  }
+                }></textarea>
+                {errors.message && <label className='error-label-text'>{errors.message}</label>}
+              </div>
 
               <div className="form-checbox">
                 <input type="checkbox" id='check-gdpr' checked={isChecked} onChange={handleCheckboxChange} />
                 <label htmlFor="check-gdpr">Vložením správy súhlasíte s <HashLink to="/gdpr#gdpr" spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}> Podmienkami ochrany osobných údajov.</HashLink></label>
               </div>
-              {/* <p>Vložením správy súhlasíte s <HashLink to="/gdpr#gdpr">podmienkami ochrany osobných údajov.</HashLink></p> */}
-
-              <button>Odoslať</button>
+              <button>{isLoading ? "Odosiela sa" : "Odoslať"}</button>
             </form>
           </div>
         </div >

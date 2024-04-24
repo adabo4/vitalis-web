@@ -17,8 +17,6 @@ const Olekarni = () => {
 
     return (
         <>
-
-
             <div className='olekarni-container' id='onas' >
                 <div className='olekarni-box' >
                     <div className='olekarni-left'>
