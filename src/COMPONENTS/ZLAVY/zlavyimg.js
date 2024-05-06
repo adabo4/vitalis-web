@@ -6,12 +6,6 @@ const zlavyimg = [
         src: require("../img/ZLAVY/aderma.jpg"),
         alt: 'Aderma'
     },
-    {
-        id: "2",
-        url: require("../img/ZLAVY/bioderma.png"),
-        src: require("../img/ZLAVY/bioderma.png"),
-        alt: 'Bioderma'
-    },
 
     {
         id: "3",
@@ -25,15 +19,7 @@ const zlavyimg = [
         url: require("../img/ZLAVY/avene.jpg"),
         src: require("../img/ZLAVY/avene.jpg"),
         alt: 'Avene'
-    },
-
-    {
-        id: "5",
-        url: require("../img/ZLAVY/avene2.jpg"),
-        src: require("../img/ZLAVY/avene2.jpg"),
-        alt: 'Avene'
     }
-
 
 
 ]
