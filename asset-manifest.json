@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dfeb126.css",
-    "main.js": "/static/js/main.552b0f8c.js",
+    "main.css": "/static/css/main.67d73a59.css",
+    "main.js": "/static/js/main.91c5496e.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/ZADNE_DEMO_COMP.jpg": "/static/media/ZADNE_DEMO_COMP.bd5f1d12cc4c54c65c19.jpg",
     "static/media/avene.jpg": "/static/media/avene.8da46f122a650a7e739f.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/PREDNA_LEKAREN_COMP.jpg": "/static/media/PREDNA_LEKAREN_COMP.bbfdaab9686d8677d1eb.jpg",
-    "static/media/bioderma.png": "/static/media/bioderma.c4cf7abc061c187f53b9.png",
-    "static/media/avene2.jpg": "/static/media/avene2.a75ac6a98adf161c4b06.jpg",
     "static/media/aderma.jpg": "/static/media/aderma.096c449f5ecdd521ac91.jpg",
     "static/media/bioderma2.png": "/static/media/bioderma2.e2f26a39d23711281e85.png",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
@@ -24,12 +22,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.7dfeb126.css.map": "/static/css/main.7dfeb126.css.map",
-    "main.552b0f8c.js.map": "/static/js/main.552b0f8c.js.map",
+    "main.67d73a59.css.map": "/static/css/main.67d73a59.css.map",
+    "main.91c5496e.js.map": "/static/js/main.91c5496e.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dfeb126.css",
-    "static/js/main.552b0f8c.js"
+    "static/css/main.67d73a59.css",
+    "static/js/main.91c5496e.js"
   ]
 }
