@@ -10,7 +10,6 @@ import Karticka from './COMPONENTS/KARTICKA/Karticka';
 import LetakPartner from './COMPONENTS/LETAK/letak';
 import Poukazky from './COMPONENTS/POUKAZKY/Poukazky';
 import { useLocation } from 'react-router-dom';
-import Oznamy from './COMPONENTS/OZNAMY/Oznamy';
 export default function Home({ showPoukazky }) {
 
     const location = useLocation();
