@@ -26,7 +26,7 @@ export default function Oznamy() {
                         <p>Máj je celosvetovo venovaný osvete a prevencii pred vznikom rakoviny kože.
                             Jej výskyt na Slovensku sa za posledných 30 rokov viac ako strojnásobil.
                             Takmer 90 % prípadov vieme predísť vďaka včasnej diagnostike,
-                            preto <span> v utorok 14. mája </span> pri príležitosti medzinárodného dňa melanómu,
+                            preto <span> v utorok 14. mája medzi 10:00 - 14:00 </span> pri príležitosti medzinárodného dňa melanómu,
                             vyšetrí pani Mudr. Červeňáková znamienka bezplatne, v našom Dermocentre lekárne Vitalis.</p>
                         <img src={skin} className='skin-img' alt="Kontrola kože" />
 
