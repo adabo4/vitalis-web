@@ -1,0 +1,145 @@
+/* .oznamy-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+} */
+
+.oznamy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.oznamy,
+.checkup {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.oznamy-header h1,
+.heading {
+
+    border-bottom: 3px solid rgb(64, 187, 192);
+    padding-bottom: 0.1em;
+    margin: 50px;
+    text-align: center;
+    line-height: .9em;
+
+
+
+}
+
+.heading {
+    border-bottom: none;
+}
+
+.oznamy p,
+.checkup p {
+    text-align: left;
+    padding: 15px;
+    line-height: 1.6em;
+    box-shadow: 0 5px 20px rgba(101, 101, 101, 0.35);
+
+
+}
+
+.oznamy p:hover,
+.checkup p:hover {
+    transition: .3 ease-in-out;
+    transform: scale(1.01);
+}
+
+.checkup h2 {
+
+    margin: 40px 15px;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px;
+
+}
+
+.checkup-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.checkup span {
+    font-weight: 700;
+    color: rgb(186, 64, 192);
+    color: rgb(46, 139, 139);
+    font-size: 18px;
+}
+
+
+.skin-img {
+    /* background-image: url("../img/skincheck.jpg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative; */
+    width: 30%;
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .oznamy {
+        width: 80%;
+    }
+
+    .checkup {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .checkup-info {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skin-img {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .oznamy {
+        min-width: 19em;
+        width: 100%;
+    }
+
+    .zlavy-header h1 {
+        font-size: 1.5em;
+
+    }
+
+    .oznamy h2 {
+        font-size: 1.5em;
+    }
+
+    .skin-img {
+        width: 100%;
+    }
+
+
+}
