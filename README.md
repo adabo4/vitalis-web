@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# VITALIS website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I contributed to the creation of this website by providing design ideas and later applied key features that enhanced its visual appeal. Now, I keep the site updated with the latest news.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Slider added using 'react-slick' library. I studied its documentation to make logoslider that fitted my requirements.
+- Gallery to showcase leaflet added using 'Lightgallery.js' after reviewing the documentation on how to use the library. 
+- Email validation in the form. 
+- Google Analytics using React-GA and adding Consent Banner using cookies to remember the users choice of consent. 
 
-### `npm start`
+## What I learned
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The basics of how react works in order to start adding the features. 
+- The concept of useState, useEffect, useRef
+- How to use the props that pass the properties from the parent components to children.
+- How to use cookies to store the users consent and once its given the Google Analytics (GA) can start tracking events on the website. However, the user must have a choice to remove the consent and once that happens, the GA script has to stop tracking the events. 
+- How to add various libraries that help to efficiently speed up the process of web development instead of creating the feature from the scratch. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live preview
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.lekarenvitalis.sk/
