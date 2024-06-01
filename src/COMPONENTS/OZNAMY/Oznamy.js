@@ -18,7 +18,7 @@ export default function Oznamy() {
 
                 </div>
 
-                <div className="checkup">
+                {/* <div className="checkup">
                     <div className="checkup-header">
                         <h1 className='heading'>Kontrola materských znamienok</h1>
                     </div>
@@ -35,7 +35,7 @@ export default function Oznamy() {
                     </div>
 
                     <h2>Tešíme sa na Vás!</h2>
-                </div>
+                </div> */}
             </div>
 
         </>
