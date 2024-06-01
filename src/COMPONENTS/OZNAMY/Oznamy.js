@@ -1,6 +1,5 @@
 import React from 'react'
 import "./oznamy.css";
-import skin from "../img/skincheck.jpg"
 
 export default function Oznamy() {
     return (
