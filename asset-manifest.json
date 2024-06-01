@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.498a941e.css",
-    "main.js": "/static/js/main.86708786.js",
+    "main.css": "/static/css/main.24191f10.css",
+    "main.js": "/static/js/main.8ad19554.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/lrp.jpg": "/static/media/lrp.1ede19781fecc6b87903.jpg",
     "static/media/vichy.jpg": "/static/media/vichy.792dd9e28105008371b6.jpg",
@@ -10,7 +10,6 @@
     "static/media/avene.jpg": "/static/media/avene.8da46f122a650a7e739f.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/PREDNA_LEKAREN_COMP.jpg": "/static/media/PREDNA_LEKAREN_COMP.bbfdaab9686d8677d1eb.jpg",
-    "static/media/skincheck.jpg": "/static/media/skincheck.16f2b9a1de868b8ade22.jpg",
     "static/media/aderma.jpg": "/static/media/aderma.096c449f5ecdd521ac91.jpg",
     "static/media/bioderma2.png": "/static/media/bioderma2.e2f26a39d23711281e85.png",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
@@ -26,12 +25,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.498a941e.css.map": "/static/css/main.498a941e.css.map",
-    "main.86708786.js.map": "/static/js/main.86708786.js.map",
+    "main.24191f10.css.map": "/static/css/main.24191f10.css.map",
+    "main.8ad19554.js.map": "/static/js/main.8ad19554.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.498a941e.css",
-    "static/js/main.86708786.js"
+    "static/css/main.24191f10.css",
+    "static/js/main.8ad19554.js"
   ]
 }
