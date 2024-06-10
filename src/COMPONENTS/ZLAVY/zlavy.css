@@ -64,6 +64,10 @@
 
 }
 
+.zlavy-images .one-img:nth-child(1) a img {
+    object-position: 50% 60%;
+}
+
 .zlavy-images a img:hover {
     transform: scale(1.06);
 
