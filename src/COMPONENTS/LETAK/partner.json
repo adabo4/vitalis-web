@@ -1,32 +1,42 @@
 [
-    {
-        "id": 1,
-        "image": "letak/letak1.jpg",
-        "name": "Strana 1"
-    },
-    {
-        "id": 2,
-        "image": "letak/letak2.jpg",
-        "name": "Strana 2"
-    },
-    {
-        "id": 3,
-        "image": "letak/letak3.jpg",
-        "name": "Strana 3"
-    },
-    {
-        "id": 4,
-        "image": "letak/letak4.jpg",
-        "name": "Strana 4"
-    },
-    {
-        "id": 5,
-        "image": "letak/letak5.jpg",
-        "name": "Strana 5"
-    },
-    {
-        "id": 6,
-        "image": "letak/letak6.jpg",
-        "name": "Strana 6"
-    }
+  {
+    "id": 1,
+    "image": "letak/letak1.jpg",
+    "name": "Strana 1"
+  },
+  {
+    "id": 2,
+    "image": "letak/letak2.jpg",
+    "name": "Strana 2"
+  },
+  {
+    "id": 3,
+    "image": "letak/letak3.jpg",
+    "name": "Strana 3"
+  },
+  {
+    "id": 4,
+    "image": "letak/letak4.jpg",
+    "name": "Strana 4"
+  },
+  {
+    "id": 5,
+    "image": "letak/letak5.jpg",
+    "name": "Strana 5"
+  },
+  {
+    "id": 6,
+    "image": "letak/letak6.jpg",
+    "name": "Strana 6"
+  },
+  {
+    "id": 7,
+    "image": "letak/letak7.jpg",
+    "name": "Strana 7"
+  },
+  {
+    "id": 8,
+    "image": "letak/letak8.jpg",
+    "name": "Strana 8"
+  }
 ]
