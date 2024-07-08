@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cfb03eb.css",
-    "main.js": "/static/js/main.98557ad6.js",
+    "main.css": "/static/css/main.48ac3450.css",
+    "main.js": "/static/js/main.f070cd20.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
-    "static/media/aderma.jpg": "/static/media/aderma.4241a1839b87dfdb3bc8.jpg",
-    "static/media/lrp.jpg": "/static/media/lrp.1ede19781fecc6b87903.jpg",
-    "static/media/vichy.jpg": "/static/media/vichy.792dd9e28105008371b6.jpg",
     "static/media/cerave.jpg": "/static/media/cerave.c04595ed433937950949.jpg",
     "static/media/ZADNE_DEMO_COMP.jpg": "/static/media/ZADNE_DEMO_COMP.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/PREDNA_LEKAREN_COMP.jpg": "/static/media/PREDNA_LEKAREN_COMP.bbfdaab9686d8677d1eb.jpg",
     "static/media/bioderma.png": "/static/media/bioderma.e2f26a39d23711281e85.png",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
+    "static/media/nuxe.jpg": "/static/media/nuxe.7a49686f14256b49c688.jpg",
+    "static/media/novexpert.jpg": "/static/media/novexpert.b1d159e442c982a653bc.jpg",
     "static/media/eucerin.jpg": "/static/media/eucerin.81ce81a5a3fae30d400c.jpg",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
+    "static/media/avene2.jpg": "/static/media/avene2.b3bd3950b867f9e83278.jpg",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
     "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
@@ -25,12 +25,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.1cfb03eb.css.map": "/static/css/main.1cfb03eb.css.map",
-    "main.98557ad6.js.map": "/static/js/main.98557ad6.js.map",
+    "main.48ac3450.css.map": "/static/css/main.48ac3450.css.map",
+    "main.f070cd20.js.map": "/static/js/main.f070cd20.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cfb03eb.css",
-    "static/js/main.98557ad6.js"
+    "static/css/main.48ac3450.css",
+    "static/js/main.f070cd20.js"
   ]
 }
