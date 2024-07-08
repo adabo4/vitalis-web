@@ -1,16 +1,18 @@
 const zlavyimg = [
 
+
     {
         id: "1",
-        url: require("../img/ZLAVY/aderma.jpg"),
-        src: require("../img/ZLAVY/aderma.jpg"),
-        alt: 'Aderma'
+        url: require("../img/ZLAVY/nuxe.jpg"),
+        src: require("../img/ZLAVY/nuxe.jpg"),
+        alt: 'Nuxe'
     },
+
     {
         id: "2",
-        url: require("../img/ZLAVY/lrp.jpg"),
-        src: require("../img/ZLAVY/lrp.jpg"),
-        alt: 'La Roche Posay'
+        url: require("../img/ZLAVY/novexpert.jpg"),
+        src: require("../img/ZLAVY/novexpert.jpg"),
+        alt: 'Novexpert'
     },
 
     {
@@ -22,9 +24,9 @@ const zlavyimg = [
 
     {
         id: "4",
-        url: require("../img/ZLAVY/vichy.jpg"),
-        src: require("../img/ZLAVY/vichy.jpg"),
-        alt: 'Vichy'
+        url: require("../img/ZLAVY/avene2.jpg"),
+        src: require("../img/ZLAVY/avene2.jpg"),
+        alt: 'Eucerin'
     },
     {
         id: "5",
