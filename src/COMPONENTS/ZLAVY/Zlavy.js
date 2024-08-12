@@ -1,7 +1,6 @@
 import React from "react";
 import './zlavy.css';
 import Oznamy from "../OZNAMY/Oznamy";
-
 import zlavyimg from "./zlavyimg";
 
 

@@ -10,9 +10,9 @@ const zlavyimg = [
 
     {
         id: "2",
-        url: require("../img/ZLAVY/novexpert.jpg"),
-        src: require("../img/ZLAVY/novexpert.jpg"),
-        alt: 'Novexpert'
+        url: require("../img/ZLAVY/bioderma2.png"),
+        src: require("../img/ZLAVY/bioderma2.png"),
+        alt: 'Bioderma'
     },
 
     {
