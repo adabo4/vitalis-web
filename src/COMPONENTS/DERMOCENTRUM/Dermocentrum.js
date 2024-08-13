@@ -1,31 +1,33 @@
 import React from 'react'
 import './dermocentrum.css'
 import dermo1 from '../img/ZADNE_DEMO_COMP.jpg'
+import useScrollIn from '../helpers/useScrollIn'
 
 const Dermocentrum = () => {
+    const addToRefs = useScrollIn();
     return (
         <div className='dermo-container' id='dermocentrum'>
             <div className='dermo-box'>
                 <div className='dermo-top'>
                     <div className='dermo-left'>
-                        <p className='left-h3'>
+                        <p ref={addToRefs} className='left-h3 slide-in'>
                             Trápia Vás vrásky, akné či pocit suchej pokožky ?
                             <br /> Zamierte do nášho Dermocentra, kde Vašej pleti
                             pomôžeme nájsť tie správne kozmetické prípravky na mieru.
                         </p>
 
-                        <h4>
+                        <h4 ref={addToRefs} className='slide-up'>
                             Čo je DERMOKOZMETIKA?
                         </h4>
 
-                        <p className='left-p'>
+                        <p ref={addToRefs} className='left-p slide-right'>
                             Dermokozmetika predstavuje špecifickú kategóriu produktov starostlivosti o pleť, ktorá spĺňa náročné požiadavky farmaceutického priemyslu.
                             Produkty sú vyrábané v spolupráci <br /> s odborníkmi na starostlivosť o pleť (dermatológmi, pediatrami, oftalmológmi <br /> a farmaceutmi) a vyznačujú sa vysokou účinnosťou a bezpečnosťou
                             potvrdenou klinickými skúškami.
                         </p>
                     </div>
 
-                    <img src={dermo1} alt=''></img>
+                    <img ref={addToRefs} className='scale-up' src={dermo1} alt=''></img>
 
                 </div>
 

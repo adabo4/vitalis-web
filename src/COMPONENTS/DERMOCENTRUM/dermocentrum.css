@@ -56,6 +56,41 @@
 
 }
 
+.scale-up {
+    transform: scale(.8);
+    transition: transform .5s ease-in-out, opacity .5s ease-in-out;
+    opacity: 0;
+
+
+}
+
+.scale-up.scale-up-appear {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    /* Smooth transition */
+    opacity: 1;
+}
+
+.scale-up.scale-final {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    /* Smooth transition */
+}
+
+@keyframes up {
+
+    0% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+
+
 .dermo-top img {
     box-shadow: 0 0 30px rgba(38, 38, 38, 0.64);
     border: 1px solid rgba(34, 34, 34, 0.669);
@@ -105,6 +140,9 @@
     margin: 0 0 30px;
     line-height: .9em;
 }
+
+
+
 
 
 @media screen and (max-width:1400px) {

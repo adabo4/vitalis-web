@@ -31,6 +31,13 @@ const useScrollIn = (options = { root: null, rootMargin: '0px 0px 0px 0px', thre
                     if (entry.target.classList.contains("rotate")) {
                         entry.target.classList.add("rotate-appear")
                     }
+                    if (entry.target.classList.contains("scale-up")) {
+                        entry.target.classList.add("scale-up-appear")
+
+                        setTimeout(() => {
+                            entry.target.classList.add('scale-final');
+                        }, 300); // Delay matches the transition duration to 1.2s
+                    }
                     // observer.observe(entry.target)
                 }
                 else {
@@ -49,6 +56,10 @@ const useScrollIn = (options = { root: null, rootMargin: '0px 0px 0px 0px', thre
                     }
                     if (entry.target.classList.contains("rotate")) {
                         entry.target.classList.remove("rotate-appear")
+                    }
+                    if (entry.target.classList.contains("scale-up")) {
+                        entry.target.classList.remove("scale-up-appear")
+                        entry.target.classList.remove("scale-final")
                     }
                 }
             });
