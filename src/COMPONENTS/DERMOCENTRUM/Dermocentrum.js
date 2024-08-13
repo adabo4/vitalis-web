@@ -4,7 +4,12 @@ import dermo1 from '../img/ZADNE_DEMO_COMP.jpg'
 import useScrollIn from '../helpers/useScrollIn'
 
 const Dermocentrum = () => {
-    const addToRefs = useScrollIn();
+
+    const options = {
+        rootMargin: "0px 0px -10px 0px",
+        threshold: .4
+    }
+    const addToRefs = useScrollIn(options);
     return (
         <div className='dermo-container' id='dermocentrum'>
             <div className='dermo-box'>
@@ -32,15 +37,15 @@ const Dermocentrum = () => {
                 </div>
 
                 <div className='dermo-footer'>
-                    <p> Z pohoria Cévennes prúdi VODA Z TERMÁLNEHO PRAMEŇA <b>AVÈNE</b> cez najhlbšie a najstaršie dolomitové skaly na Zemi, kde je naplnená minerálmi
+                    <p ref={addToRefs} className='slide-right'> Z pohoria Cévennes prúdi VODA Z TERMÁLNEHO PRAMEŇA <b>AVÈNE</b> cez najhlbšie a najstaršie dolomitové skaly na Zemi, kde je naplnená minerálmi
                         a jedinečnou mikroflórou: Aqua Dolomiae. Už viac ako 275 rokov sa voda používa na upokojenie a liečbu kožných ochorení.
                         Nachádza sa v každom produkte Avéne a je klinicky dokázané, že prospieva rôznym kožným indikáciám, od akné až po atopickú pokožku, a upokojuje aj tú najcitlivejšiu pokožku.
                     </p>
-                    <p>
+                    <p ref={addToRefs} className='slide-up'>
                         <b>BIODERMA</b> je značka založená na princípe ekobiológie a biológie. Tento inovatívny <br /> a priekopnícky vedecký prístup považuje pokožku <br /> za živý ekosystém, ktorý neustále prichádza <br /> do kontaktu s okolitým prostredím, tým pádom je jeho prírodné
                         mechanizmy potrebné chrániť a zachovať.
                     </p>
-                    <p>
+                    <p ref={addToRefs} className='slide-left'>
                         Tajomstvo účinku prípravkov <b>Vichy</b> je práve termálna voda. Pochádza priamo z hlbín francúzskych sopiek v regióne Auvergne. Sopečná voda Vichy je bohatá na 15 účinných minerálov, ktoré posilňujú kožnú bariéru a pomáhajú ju chrániť pred expozičnými faktormi, akými sú
                         slnečné lúče, znečistenie a stres. Táto rôznorodá zmes vzácnych minerálov má klinicky preukázané posilňujúce, regeneračné a antioxidačné účinky na pokožku.
                     </p>

@@ -112,6 +112,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 3em;
+    overflow: hidden;
     /* border-bottom: 1px solid rgba(156, 156, 156, 0.66); */
 }
 
@@ -199,12 +200,13 @@
     .dermo-footer {
         margin: 0 auto;
         align-items: center;
+
     }
 
     .dermo-footer p {
         max-width: 20em;
         min-width: 13em;
-        width: 100%;
+        width: 70%;
         margin: 1em auto;
 
     }
