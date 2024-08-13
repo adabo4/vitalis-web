@@ -2,7 +2,7 @@
 import './olekarni2.css'
 import onas from '../img/PREDNA_LEKAREN_COMP.jpg'
 import { HashLink } from 'react-router-hash-link'
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import useScrollIn from '../helpers/useScrollIn'
 
 

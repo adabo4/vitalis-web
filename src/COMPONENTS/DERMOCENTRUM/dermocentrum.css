@@ -78,17 +78,7 @@
     /* Smooth transition */
 }
 
-@keyframes up {
 
-    0% {
-        transform: scale(.8);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-
-}
 
 
 
