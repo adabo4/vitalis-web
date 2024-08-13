@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.48ac3450.css",
-    "main.js": "/static/js/main.8a143313.js",
+    "main.css": "/static/css/main.b5a98a73.css",
+    "main.js": "/static/js/main.32c67200.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/cerave.jpg": "/static/media/cerave.c04595ed433937950949.jpg",
     "static/media/ZADNE_DEMO_COMP.jpg": "/static/media/ZADNE_DEMO_COMP.bd5f1d12cc4c54c65c19.jpg",
@@ -25,12 +25,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.48ac3450.css.map": "/static/css/main.48ac3450.css.map",
-    "main.8a143313.js.map": "/static/js/main.8a143313.js.map",
+    "main.b5a98a73.css.map": "/static/css/main.b5a98a73.css.map",
+    "main.32c67200.js.map": "/static/js/main.32c67200.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48ac3450.css",
-    "static/js/main.8a143313.js"
+    "static/css/main.b5a98a73.css",
+    "static/js/main.32c67200.js"
   ]
 }
