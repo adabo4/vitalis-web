@@ -3,13 +3,16 @@ import './karticka.css'
 import karticka from '../img/kartickaof2-min.jpg'
 import karticka2 from '../img/karticka_2_comp.png'
 import { BsFillExclamationDiamondFill } from 'react-icons/bs'
+import useScrollIn from '../helpers/useScrollIn'
 
 const Karticka = () => {
+
+    const addToRefs = useScrollIn();
 
     return (
         <div className='karta-container'>
             <div className='karta-box'>
-                <div className='karta-left'>
+                <div ref={addToRefs} className='karta-left slide-right'>
                     <div className='one-info'>
                         <h2><BsFillExclamationDiamondFill /></h2>
                         <p>Pri nákupe u nás môžete ušetriť aj uplatnením zľavy <br /> s našou vernostnou kartičkou.</p>
@@ -25,7 +28,7 @@ const Karticka = () => {
                         <img src={karticka} alt='' />
                         <img src={karticka2} alt='' />
                     </div>
-                    <ul>
+                    <ul ref={addToRefs} className='slide-up'>
                         <li>S vernostnou kartou zbierate body za každý nákup.</li>
                         <li>Nazbierané body viete uplatniť na všetky produkty okrem liekov vydávaných na predpis.</li>
                     </ul>
