@@ -2,9 +2,11 @@ import React from "react";
 import './zlavy.css';
 import Oznamy from "../OZNAMY/Oznamy";
 import zlavyimg from "./zlavyimg";
+import useScrollIn from "../helpers/useScrollIn";
 
 
 const Zlavy = () => {
+    const addToRefs = useScrollIn()
     return (
         <div className='akcie-container' id='zlavy'>
             <div className='zlavy-container'>
@@ -18,7 +20,7 @@ const Zlavy = () => {
                     {
                         zlavyimg.map((item, i) => {
                             return (
-                                <div className="one-img">
+                                <div ref={addToRefs} className="one-img slide-in">
                                     <a key={item.id} href={item.src} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt}></img></a>
                                 </div>
                             )
