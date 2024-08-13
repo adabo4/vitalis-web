@@ -7,7 +7,14 @@ import useScrollIn from '../helpers/useScrollIn'
 
 const Karticka = () => {
 
-    const addToRefs = useScrollIn();
+    const options = {
+        rootMargin: "-50px 0px 0px 0px",
+        threshold: .6
+    }
+
+    const addToRefs = useScrollIn(options);
+
+
 
     return (
         <div className='karta-container'>
@@ -25,8 +32,8 @@ const Karticka = () => {
 
                 <div className='karta-right'>
                     <div className='karta-images'>
-                        <img src={karticka} alt='' />
-                        <img src={karticka2} alt='' />
+                        <img ref={addToRefs} className="rotate" src={karticka} alt='' />
+                        <img ref={addToRefs} className='rotate' src={karticka2} alt='' />
                     </div>
                     <ul ref={addToRefs} className='slide-up'>
                         <li>S vernostnou kartou zbierate body za každý nákup.</li>

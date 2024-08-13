@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const useScrollIn = (options = { root: null, rootMargin: '0px', threshold: 0.5 }) => {
+const useScrollIn = (options = { root: null, rootMargin: '0px 0px 0px 0px', threshold: 0.5 }) => {
     const elementsRef = useRef([]);
 
     const addToRefs = (el) => {
@@ -28,6 +28,9 @@ const useScrollIn = (options = { root: null, rootMargin: '0px', threshold: 0.5 }
                     if (entry.target.classList.contains("slide-up")) {
                         entry.target.classList.add("slide-up-appear")
                     }
+                    if (entry.target.classList.contains("rotate")) {
+                        entry.target.classList.add("rotate-appear")
+                    }
                     // observer.observe(entry.target)
                 }
                 else {
@@ -43,6 +46,9 @@ const useScrollIn = (options = { root: null, rootMargin: '0px', threshold: 0.5 }
                     }
                     if (entry.target.classList.contains("slide-up")) {
                         entry.target.classList.remove("slide-up-appear")
+                    }
+                    if (entry.target.classList.contains("rotate")) {
+                        entry.target.classList.remove("rotate-appear")
                     }
                 }
             });
