@@ -19,7 +19,7 @@ const Karticka = () => {
     return (
         <div className='karta-container'>
             <div className='karta-box'>
-                <div className='karta-left slide-right'>
+                <div ref={addToRefs} className='karta-left slide-right'>
                     <div className='one-info'>
                         <h2><BsFillExclamationDiamondFill /></h2>
                         <p>Pri nákupe u nás môžete ušetriť aj uplatnením zľavy <br /> s našou vernostnou kartičkou.</p>
