@@ -21,7 +21,17 @@ const useScrollIn = (options = { root: null, rootMargin: '0px 0px 0px 0px', thre
                     }
                     if (entry.target.classList.contains("slide-in")) {
                         entry.target.classList.add("slide-in-appear")
+
+                        if (entry.target.classList.contains("pop-in")) {
+                            entry.target.classList.add('pop-in-appear');
+                        }
+                        const svgPaths = entry.target.querySelectorAll('.animate-path');
+                        svgPaths.forEach((path) => {
+                            path.classList.add('animate-path-appear');
+                        });
+
                     }
+
                     if (entry.target.classList.contains("slide-left")) {
                         entry.target.classList.add("slide-left-appear")
                     }

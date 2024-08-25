@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+:root {
+    --bg-color: #F3C8CD;
+    --bg-color-secondary: #E2003D;
+    --font-kanit: "Kanit", sans-serif;
+
+}
+
+.action-day {
+    display: flex;
+    align-items: center;
+
+}
+
+.container-text {
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 2rem 1rem;
+
+    /* animation: rotate 2s; */
+
+
+}
+
+.container-text.left {
+    width: 25rem;
+    margin: 2rem;
+}
+
+.container-text img {
+    max-width: 20rem;
+    width: 100%;
+}
+
+/* #text {
+    width: 500px;
+} */
+
+
+
+
+
+.container-text .date {
+    background-color: var(--bg-color-secondary);
+    display: inline-block;
+    padding: .3rem .6rem;
+    color: white;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 17rem;
+
+
+
+}
+
+.container-text .text {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    width: 80%;
+
+}
+
+.right-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.container-text .text .red {
+    color: var(--bg-color-secondary);
+
+}
+
+
+
+
+/* Styles.css */
+.animate-svg .animate-path-appear {
+    stroke-dasharray: 5 5;
+    stroke-dashoffset: 50;
+    animation: draw 5s forwards;
+}
+
+.pop-in {}
+
+.pop-in-appear {
+    animation: rotate 2s;
+}
+
+@keyframes rotate {
+
+    0% {
+        transform: rotateX(30deg);
+
+    }
+
+    100% {
+        transform: rotateX(0);
+    }
+
+}
+
+@keyframes draw {
+    from {
+        stroke-dashoffset: 50;
+        opacity: 0;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, 250px);
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.grid-layout .item {
+    width: 280px;
+}
+
+.grid-layout .item img {
+    width: 100%;
+}
+
+.grid-layout .item.text {
+    grid-row: 2 / 3;
+
+
+}
+
+.grid-layout .item.lrp-cont {
+    width: 19rem;
+    height: 15rem;
+    overflow: hidden;
+    grid-row: 3 / 4;
+
+
+}
+
+
+.grid-layout .item.lrp-cont .lrp {
+    background-image: url("../img/lrp-sample.png");
+    background-repeat: no-repeat;
+    background-position: 15% bottom;
+    background-size: 200%;
+    object-fit: cover;
+    width: 20rem;
+    height: 20rem;
+}
+
+.grid-layout .item.cerave {
+    grid-row: 2 / 3;
+}
+
+@media screen and (max-width: 1024px) {
+    .action-day {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .svg-container {
+        transform: rotate(90deg) translate(100px);
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .svg-container {
+        display: none;
+
+    }
+
+    .svg-container svg {
+        width: 50%;
+        margin: 2rem;
+    }
+
+    .empty-container {
+        width: 20rem;
+        height: 18rem;
+        overflow: hidden;
+
+    }
+
+    .empty {
+        background-image: url("../img/lrp-sample.png");
+        background-repeat: no-repeat;
+        background-position: 15% bottom;
+        background-size: 200%;
+        object-fit: cover;
+        width: 20rem;
+        height: 20rem;
+
+
+    }
+
+
+
+    .grid-layout {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .grid-layout .text,
+    .lrp,
+    .cerave,
+    .vichy {
+        grid-column: 1 / 2;
+
+    }
+
+    .grid-layout .item.lrp-cont {
+        display: none;
+    }
+
+    .grid-layout .item.cerave {
+        grid-row: 3 / 4;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .container-text.left {
+
+        max-width: 25rem;
+        width: 80%;
+        margin: 2rem auto;
+
+
+    }
+
+    .container-text.left .date {
+        font-size: 1.2rem;
+    }
+
+    .container-text.left .text {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .empty {
+        width: 15rem;
+        height: 15rem;
+        margin: 1em auto;
+    }
+}

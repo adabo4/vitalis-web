@@ -48,6 +48,8 @@
     padding: 15px;
     line-height: 1.6em;
     box-shadow: 0 5px 20px rgba(101, 101, 101, 0.35);
+    max-width: 650px;
+    width: 100%;
 
 
 }
@@ -100,7 +102,7 @@
 
 @media screen and (max-width: 1024px) {
     .oznamy {
-        width: 80%;
+        width: 90%;
     }
 
     .checkup {
@@ -125,9 +127,15 @@
 @media screen and (max-width:500px) {
 
     .oznamy {
-        min-width: 19em;
+        /* min-width: 19em; */
+        width: 13em;
+    }
+
+    .oznamy p {
         width: 100%;
     }
+
+
 
     .zlavy-header h1 {
         font-size: 1.5em;
