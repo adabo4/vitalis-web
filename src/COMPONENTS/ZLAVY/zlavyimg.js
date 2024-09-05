@@ -3,16 +3,16 @@ const zlavyimg = [
 
     {
         id: "1",
-        url: require("../img/ZLAVY/nuxe.jpg"),
-        src: require("../img/ZLAVY/nuxe.jpg"),
-        alt: 'Nuxe'
+        url: require("../img/ZLAVY/esthederm.png"),
+        src: require("../img/ZLAVY/esthederm.png"),
+        alt: 'Esthederm'
     },
 
     {
         id: "2",
-        url: require("../img/ZLAVY/bioderma2.png"),
-        src: require("../img/ZLAVY/bioderma2.png"),
-        alt: 'Bioderma'
+        url: require("../img/ZLAVY/aderma.jpg"),
+        src: require("../img/ZLAVY/aderma.jpg"),
+        alt: 'Aderma'
     },
 
     {
@@ -24,22 +24,17 @@ const zlavyimg = [
 
     {
         id: "4",
-        url: require("../img/ZLAVY/avene2.jpg"),
-        src: require("../img/ZLAVY/avene2.jpg"),
-        alt: 'Eucerin'
+        src: require("../img/ZLAVY/ducray.jpg"),
+        url: require("../img/ZLAVY/ducray.jpg"),
+        alt: 'Ducray'
     },
-    {
-        id: "5",
-        url: require("../img/ZLAVY/cerave.jpg"),
-        src: require("../img/ZLAVY/cerave.jpg"),
-        alt: 'Cerave'
-    },
+
 
     {
         id: "6",
-        url: require("../img/ZLAVY/eucerin.jpg"),
-        src: require("../img/ZLAVY/eucerin.jpg"),
-        alt: 'Eucerin'
+        url: require("../img/ZLAVY/klorane.jpg"),
+        src: require("../img/ZLAVY/klorane.jpg"),
+        alt: 'Klorane'
     }
 
 ]

@@ -57,12 +57,12 @@
     animation: move infinite 7s linear;
 } */
 
-.zlavy-images .one-img:nth-child(3) a img {
+/* .zlavy-images .one-img:nth-child(3) a img {
 
     width: 90%;
     margin: 0 auto;
 
-}
+} */
 
 .zlavy-images .one-img:nth-child(1) a img {
     object-position: 50% 60%;
