@@ -1,40 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.428b7618.css",
-    "main.js": "/static/js/main.29b2205d.js",
+    "main.css": "/static/css/main.b0878706.css",
+    "main.js": "/static/js/main.0afd4821.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/ZADNE_DEMO_COMP.jpg": "/static/media/ZADNE_DEMO_COMP.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/PREDNA_LEKAREN_COMP.jpg": "/static/media/PREDNA_LEKAREN_COMP.bbfdaab9686d8677d1eb.jpg",
-    "static/media/vichy-sample.png": "/static/media/vichy-sample.767debe59ca14545ad21.png",
     "static/media/aderma.jpg": "/static/media/aderma.fab75eb070d412f2adf7.jpg",
     "static/media/klorane.jpg": "/static/media/klorane.35520586fd204d38e004.jpg",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
-    "static/media/lrp-sample.png": "/static/media/lrp-sample.cf88ca7475b48af8353d.png",
     "static/media/esthederm.png": "/static/media/esthederm.5823d3da877e229e3cb8.png",
     "static/media/ducray.jpg": "/static/media/ducray.354e6a184973f6addbab.jpg",
     "static/media/bioderma.png": "/static/media/bioderma.d611e31c1202ad2cff86.png",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
-    "static/media/cerave-sample.png": "/static/media/cerave-sample.f8ec951786c809604508.png",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
     "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/lg.woff?io9a6k": "/static/media/lg.356a0e9cb064c7a196c6.woff",
     "static/media/lg.ttf?io9a6k": "/static/media/lg.747d038541bfc6bb8ea9.ttf",
-    "static/media/dnimarianne-logo.svg": "/static/media/dnimarianne-logo.46733ded58cfec99d2633944a235e48c.svg",
-    "static/media/arrow.svg": "/static/media/arrow.8273367f4fa2200dc7a8c3811661bd37.svg",
     "static/media/lg.woff2?io9a6k": "/static/media/lg.64b800aa30714fd916dc.woff2",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.428b7618.css.map": "/static/css/main.428b7618.css.map",
-    "main.29b2205d.js.map": "/static/js/main.29b2205d.js.map",
+    "main.b0878706.css.map": "/static/css/main.b0878706.css.map",
+    "main.0afd4821.js.map": "/static/js/main.0afd4821.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.428b7618.css",
-    "static/js/main.29b2205d.js"
+    "static/css/main.b0878706.css",
+    "static/js/main.0afd4821.js"
   ]
 }
