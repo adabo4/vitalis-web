@@ -11,7 +11,7 @@ export default function Oznamy() {
                     <div className="oznamy-header">
                         <h1>AKTUALITY</h1>
                     </div>
-                    <p ref={addToRefs} className='slide-in'>Dňa 23.9. 2024 od 10:00 - 16:00 hod. bude v Dermocentre Vitalis prebiehať PROMO AKCIA na kozmetiku Avène, A-Derma, Ducray a Klorane,
+                    <p ref={addToRefs} className='slide-in'>Dňa 21.10. 2024 od 10:00 - 16:00 hod. bude v Dermocentre Vitalis prebiehať PROMO AKCIA na kozmetiku Avène, A-Derma, Ducray a Klorane,
                         spojená s diagnostikou pleti. Samozrejmosťou budú aj zľavy na každý jeden produkt.
                     </p>
                 </div>
