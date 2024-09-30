@@ -93,7 +93,7 @@ const Footer = () => {
       }
       else {
         setIsLoading(true);
-        emailjs.sendForm('service_9074cvj', 'template_y9nldqv', form.current, 'pruYGhF--wK7yAfB_')
+        emailjs.sendForm(service_ID, template_ID, form.current, public_ID)
           .then((result) => {
             console.log(result.text);
             alert("Email bol odoslaný.")
