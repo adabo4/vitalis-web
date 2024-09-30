@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0878706.css",
-    "main.js": "/static/js/main.0afd4821.js",
+    "main.css": "/static/css/main.ad25d0db.css",
+    "main.js": "/static/js/main.64a060f4.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
+    "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
+    "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
+    "static/media/bgImgPressure.png": "/static/media/bgImgPressure.1113891a4b54f85153d0.png",
     "static/media/ZADNE_DEMO_COMP.jpg": "/static/media/ZADNE_DEMO_COMP.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/PREDNA_LEKAREN_COMP.jpg": "/static/media/PREDNA_LEKAREN_COMP.bbfdaab9686d8677d1eb.jpg",
@@ -23,13 +26,15 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "index.html": "/index.html",
-    "main.b0878706.css.map": "/static/css/main.b0878706.css.map",
-    "main.0afd4821.js.map": "/static/js/main.0afd4821.js.map",
+    "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
+    "main.ad25d0db.css.map": "/static/css/main.ad25d0db.css.map",
+    "main.64a060f4.js.map": "/static/js/main.64a060f4.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0878706.css",
-    "static/js/main.0afd4821.js"
+    "static/css/main.ad25d0db.css",
+    "static/js/main.64a060f4.js"
   ]
 }
