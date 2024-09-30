@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './navbar.css'
 import logo from '../img/Vitalis_logogood-removebg-preview.png'
 import { GiHamburgerMenu } from 'react-icons/gi'
-
 import { HashLink } from 'react-router-hash-link';
 
 const NavBar = ({ setShowLetakPartner, setShowPoukazky }) => {
@@ -82,8 +81,8 @@ const NavBar = ({ setShowLetakPartner, setShowPoukazky }) => {
           Leták</HashLink></li>
         {/* <li><Link to={"/kontakt#kontakt"} onClick={() => showit()}>kon</Link></li> */}
         <li><HashLink to="/poukazky#poukazky" style={customStyle} onClick={poukazkyClick} spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Poukážky</HashLink></li>
+        <li><HashLink style={customStyle} to="/vysetrenie#appointments">Vyšetrenia v lekárni</HashLink></li>
         <li><HashLink to="/kontakt#kontakt" onClick={() => navClick("Navigation", "Kontakt link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Kontakt</HashLink></li>
-
 
       </ul>
     </div>

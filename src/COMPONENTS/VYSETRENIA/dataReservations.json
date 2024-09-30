@@ -1,0 +1,40 @@
+{
+  "reservations": [
+    {
+      "id": 0,
+      "heading": "Riziko cukrovky",
+      "about": "Glykovaný hemoglobín.",
+      "timeStamp": "do 5 minút",
+      "price": "4,00€",
+      "text": "Rýchly test odhalí, či sa u vás rozvíja cukrovka, prípadne, či ju vaša liečba drží pod kontrolou.",
+      "bgImg": "./bgImg.png"
+    },
+    {
+      "id": 1,
+      "heading": "Potrebujete antibiotiká?",
+      "about": "Meranie CRP.",
+      "timeStamp": "do 5 minút",
+      "price": "4,00€",
+      "text": "V prípade akútnej infekcie horných dýchacích ciest dokážeme s vysokou pravdepodobnosťou rozlíšiť vírusovú infekciu od bakteriálnej. ",
+      "bgImg": "./bgImgVirus.png"
+    },
+    {
+      "id": 2,
+      "heading": null,
+      "about": "Meranie glykémie.",
+      "timeStamp": "do 5 minút",
+      "price": null,
+      "text": "Jednoduché a rýchle meranie hladiny cukru v krvi, ktoré Vám pomôže predchádzať komplikáciám spojenými s cukrovkou.",
+      "bgImg": "./bgImg.png"
+    },
+    {
+      "id": 3,
+      "heading": null,
+      "about": "Meranie krvného tlaku.",
+      "timeStamp": "do 5 minút",
+      "price": null,
+      "text": "Zmeranie krvného tlaku, srdcového pulzu i detekcia nepravidelného srdcového rytmu.",
+      "bgImg": "./bgImgPressure.png"
+    }
+  ]
+}

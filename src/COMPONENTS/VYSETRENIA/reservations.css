@@ -1,0 +1,122 @@
+.reservations-container {
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    text-align: center;
+    font-size: 4rem;
+    width: 100%;
+}
+
+.highlight {
+    position: relative;
+    padding: .5rem;
+}
+
+
+.highlight::after {
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: var(--highlight-transform-default);
+    background-color: var(--color-primary);
+
+    /* background: rgba(39, 153, 169, 0.49);
+    transform: matrix(1, -0.02, -0.44, 0.9, 0, 0); */
+
+}
+
+.highlight-alt::after {
+    transform: var(--highlight-transform-alt);
+    background-color: var(--color-button);
+    opacity: 1;
+
+}
+
+.reservations-text {
+    font-size: 1.6rem;
+    width: 450px;
+    text-align: center;
+    margin: 2rem;
+
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1000px;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+
+}
+
+
+.reservation-form .recap h3 {
+    text-align: center;
+}
+
+@media screen and (max-width: 825px) {
+
+
+    .headline {
+        font-size: 3rem;
+        margin-top: 1rem;
+
+    }
+
+    .highlight::after {
+        width: 90%;
+        height: 90%;
+    }
+
+    .highlight-alt::after {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .reservations-text {
+        width: 100%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 535px) {
+
+    .headline {
+        font-size: 2rem;
+        margin-top: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reservations-text {
+        font-size: 1.3rem;
+        width: 90%;
+    }
+
+
+
+
+
+
+}

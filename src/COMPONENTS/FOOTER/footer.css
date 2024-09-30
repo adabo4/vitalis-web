@@ -225,6 +225,11 @@ iframe {
 
 }
 
+#check-gdpr {
+    width: 15px;
+    height: 15px;
+}
+
 .form-checbox label {
     font-size: 1.2rem;
     align-self: flex-start;
