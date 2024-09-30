@@ -1,0 +1,74 @@
+.modal-card {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 4rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    max-width: 350px;
+    width: 30%;
+
+}
+
+.modal-card h1 {
+    text-align: center;
+
+}
+
+.modal-card p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.modal-card a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 5;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.close-modal {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+@media screen and (max-width: 780px) {
+
+
+    .modal-card {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .close-modal {
+        font-size: 3rem;
+    }
+
+    .modal-card {
+        width: 70%;
+        padding: 2rem;
+    }
+}

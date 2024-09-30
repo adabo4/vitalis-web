@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 1000px) {
     .bill-container {
-        margin-top: 1em;
+        margin-top: 2rem;
     }
 }
 
@@ -74,7 +74,7 @@
 
     .bill-container {
         width: 100%;
-        margin-top: 1em;
+        margin-top: 2rem;
     }
 
     .bill-info h1 {

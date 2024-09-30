@@ -8,6 +8,10 @@ import { useState } from 'react';
 import GoogleAnalytics from "./COMPONENTS/GOOGLEANALYTICS/GoogleAnalytics"
 import CookieBanner from './COMPONENTS/CookieBanner/CookieBanner';
 import CookiesAbout from './COMPONENTS/CookiesAbout/CookiesAbout';
+import Reservations from './COMPONENTS/VYSETRENIA/Reservations';
+import AppointmentForm from './COMPONENTS/VYSETRENIA/AppointmentForm';
+import ReservationForm from './COMPONENTS/VYSETRENIA/ReservationForm';
+import ReservationCreated from './COMPONENTS/VYSETRENIA/ReservationCreated';
 
 
 function App() {
@@ -37,6 +41,10 @@ function App() {
         <Route path='/poukazky' element={<Home showPoukazky={showPoukazky} />} ></Route>
         <Route path='/kontakt' element={<Home />} ></Route>
         <Route path='/cookies' element={<CookiesAbout setShowBanner={setShowBanner} />} ></Route>
+        <Route path='/vysetrenie' element={<Reservations />}></Route>
+        <Route path='/rezervacia' element={<AppointmentForm />}></Route>
+        <Route path='/rezervacny-formular' element={<ReservationForm />}></Route>
+        <Route path='/vytvorenie-rezervacie' element={<ReservationCreated />}></Route>
       </Routes>
 
 
