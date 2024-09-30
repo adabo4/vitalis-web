@@ -13,9 +13,11 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
 
-
+  //eslint-disable-next-line 
   const service_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  // eslint-disable-next-line 
   const template_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID_CONTACT_FORM;
+  // eslint-disable-next-line 
   const public_ID = process.env.REACT_APP_EMAILJS_PUBLIC_ID;
 
   const form = useRef();
@@ -91,7 +93,7 @@ const Footer = () => {
       }
       else {
         setIsLoading(true);
-        emailjs.sendForm(service_ID, template_ID, form.current, public_ID)
+        emailjs.sendForm('service_9074cvj', 'template_y9nldqv', form.current, 'pruYGhF--wK7yAfB_')
           .then((result) => {
             console.log(result.text);
             alert("Email bol odoslaný.")

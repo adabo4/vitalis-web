@@ -21,6 +21,10 @@ export default function ReservationForm() {
 
     const [closeModal, setCloseModal] = useState(false)
 
+    const service_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const template_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID_RESERVATION_FORM;
+    const public_ID = process.env.REACT_APP_EMAILJS_PUBLIC_ID
+
     const [modalContent, setModalContent] = useState({
         title: '',
         content: '',
@@ -221,7 +225,10 @@ export default function ReservationForm() {
         //     process.env.REACT_APP_EMAILJS_PUBLIC_ID      // Your public EmailJS user ID
         // )
 
-        emailjs.send('service_l0gxgbb', 'template_fki38gd', templateParams, 'pruYGhF--wK7yAfB_')
+
+
+
+        emailjs.send(service_ID, template_ID, templateParams, public_ID)
 
             .then(async (res) => {
                 const appointmentRef = collection(db, 'reservations');
