@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env: 
+    env:
       REACT_APP_GOOGLE_ANALYTICS_ID: G-29PVXGWYQM
     name: Build and Push
     steps:
@@ -28,6 +28,8 @@ jobs:
           BRANCH: build # The branch name where you want to push the assets
           FOLDER: build # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          REACT_APP_GOOGLE_ANALYTICS_ID: ${{ env.REACT_APP_GOOGLE_ANALYTICS_ID }} # Accessing the secret  
+          REACT_APP_GOOGLE_ANALYTICS_ID: ${{ env.REACT_APP_GOOGLE_ANALYTICS_ID }} # Accessing the secret
+          REACT_APP_EMAILJS_SERVICE_ID: ${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }} # Add your EmailJS service ID
+          REACT_APP_EMAILJS_TEMPLATE_ID_CONTACT_FORM: ${{ secrets.REACT_APP_EMAILJS_TEMPLATE_ID_CONTACT_FORM }} # Add your EmailJS template ID
+          REACT_APP_EMAILJS_PUBLIC_ID: ${{ secrets.REACT_APP_EMAILJS_PUBLIC_ID }} # Add your EmailJS public ID
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
-          

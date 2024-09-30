@@ -13,6 +13,11 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
 
+
+  const service_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  const template_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID_CONTACT_FORM;
+  const public_ID = process.env.REACT_APP_EMAILJS_PUBLIC_ID;
+
   const form = useRef();
 
   const [isChecked, setIsChecked] = useState(false);
@@ -86,7 +91,7 @@ const Footer = () => {
       }
       else {
         setIsLoading(true);
-        emailjs.sendForm('service_9074cvj', 'template_y9nldqv', form.current, 'pruYGhF--wK7yAfB_')
+        emailjs.sendForm(service_ID, template_ID, form.current, public_ID)
           .then((result) => {
             console.log(result.text);
             alert("Email bol odoslaný.")
