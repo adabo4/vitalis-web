@@ -1,42 +1,32 @@
 [
   {
-    "id": 1,
-    "image": "letak/letak1.jpg",
-    "name": "Strana 1"
+    "image": "letak/letak1.jpg"
   },
   {
-    "id": 2,
-    "image": "letak/letak2.jpg",
-    "name": "Strana 2"
+    "image": "letak/letak2.jpg"
   },
   {
-    "id": 3,
-    "image": "letak/letak3.jpg",
-    "name": "Strana 3"
+    "image": "letak/letak3.jpg"
   },
   {
-    "id": 4,
-    "image": "letak/letak4.jpg",
-    "name": "Strana 4"
+    "image": "letak/letak4.jpg"
   },
   {
-    "id": 5,
-    "image": "letak/letak5.jpg",
-    "name": "Strana 5"
+    "image": "letak/letak5.jpg"
   },
   {
-    "id": 6,
-    "image": "letak/letak6.jpg",
-    "name": "Strana 6"
+    "image": "letak/letak6.jpg"
   },
   {
-    "id": 7,
-    "image": "letak/letak7.jpg",
-    "name": "Strana 7"
+    "image": "letak/letak7.jpg"
   },
   {
-    "id": 8,
-    "image": "letak/letak8.jpg",
-    "name": "Strana 8"
+    "image": "letak/letak8.jpg"
+  },
+  {
+    "image": "letak/letak9.jpg"
+  },
+  {
+    "image": "letak/letak10.jpg"
   }
 ]

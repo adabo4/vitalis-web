@@ -8,8 +8,6 @@ import "lightgallery/css/lg-share.css";
 import IMAGES from './partner.json'
 import './letak.scss';
 
-
-
 // import plugins if you need
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
@@ -22,7 +20,6 @@ import LightGallery from "lightgallery/react/Lightgallery.es5";
 import "./letak.css";
 
 
-
 const LetakPartner = () => {
 
   const customStyle = {
@@ -31,13 +28,8 @@ const LetakPartner = () => {
     padding: "5px"
 
   };
-
-
-
   return (
     <div className="container-letak" id="letak">
-
-
       <LightGallery
 
         speed={500}
@@ -45,24 +37,14 @@ const LetakPartner = () => {
 
 
         {
-
-          IMAGES && IMAGES.map((item) =>
-
+          IMAGES && IMAGES.map((item, id) =>
             <button data-lg-size="1240-1750" className="gallery-item" data-src={item.image}>
-              <img className="img-responsive" src={item.image} alt={item.name} style={customStyle} /></button>
-
-
-
+              <img className="img-responsive" src={item.image} alt={`Strana ${id + 1}`} style={customStyle} /></button>
           )
         }
-
-
       </LightGallery>
-
     </div>
-
   )
-
 }
 
 export default LetakPartner;
