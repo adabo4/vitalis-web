@@ -19,18 +19,11 @@ try {
     app = initializeApp(firebaseConfig);
     db = getFirestore(app);
     auth = getAuth(app);
-    database = getDatabase(app); // You can also conditionally initialize this
+    database = getDatabase(app);
 } catch (error) {
     console.error("Firebase initialization error", error);
-    // Optionally set db, auth, or other Firebase services to null or a mock implementation here
+
 }
 
-// You can still export these even if they're not initialized
+
 export { db, auth, database };
-
-// const app = initializeApp(firebaseConfig);
-
-// const db = getFirestore(app);
-// export { db };
-// export const database = getDatabase(app);
-// export const auth = getAuth(app); 

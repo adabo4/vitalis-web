@@ -2,24 +2,10 @@ const zlavyimg = [
 
 
     {
-        id: "1",
-        url: require("../img/ZLAVY/esthederm.png"),
-        src: require("../img/ZLAVY/esthederm.png"),
-        alt: 'Esthederm'
-    },
-
-    {
         id: "2",
         url: require("../img/ZLAVY/aderma.jpg"),
         src: require("../img/ZLAVY/aderma.jpg"),
         alt: 'Aderma'
-    },
-
-    {
-        id: "3",
-        url: require("../img/ZLAVY/bioderma.png"),
-        src: require("../img/ZLAVY/bioderma.png"),
-        alt: 'Bioderma'
     },
 
     {
@@ -35,6 +21,18 @@ const zlavyimg = [
         url: require("../img/ZLAVY/klorane.jpg"),
         src: require("../img/ZLAVY/klorane.jpg"),
         alt: 'Klorane'
+    },
+    {
+        id: "1",
+        url: require("../img/ZLAVY/teoxane.png"),
+        src: require("../img/ZLAVY/teoxane.png"),
+        alt: 'Teoxane'
+    },
+    {
+        id: "1",
+        url: require("../img/ZLAVY/avene.jpg"),
+        src: require("../img/ZLAVY/avene.jpg"),
+        alt: 'Avene'
     }
 
 ]
