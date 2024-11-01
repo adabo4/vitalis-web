@@ -4,7 +4,7 @@ import logo from '../img/Vitalis_logogood-removebg-preview.png'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { HashLink } from 'react-router-hash-link';
 
-const NavBar = ({ setShowLetakPartner, setShowPoukazky }) => {
+const NavBar = ({ setShowLetakPartner, setShowPoukazky, setOpenGallery }) => {
   const [show, setShow] = useState(false)
 
   const customStyle = {
@@ -39,7 +39,8 @@ const NavBar = ({ setShowLetakPartner, setShowPoukazky }) => {
       'event_category': 'Navigation',
       'event_label': 'Letak Link Clicked'
     });
-    setShowLetakPartner(true)
+    setShowLetakPartner(true);
+    setOpenGallery(true);
 
   };
   const navClick = (category, action) => {

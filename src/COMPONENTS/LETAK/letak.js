@@ -7,6 +7,8 @@ import "lightgallery/css/lg-autoplay.css";
 import "lightgallery/css/lg-share.css";
 import IMAGES from './partner.json'
 import './letak.scss';
+import { useEffect } from "react";
+import { useRef } from "react";
 
 // import plugins if you need
 import lgThumbnail from "lightgallery/plugins/thumbnail";
@@ -20,7 +22,9 @@ import LightGallery from "lightgallery/react/Lightgallery.es5";
 import "./letak.css";
 
 
-const LetakPartner = () => {
+const LetakPartner = ({ openGallery }) => {
+
+  const galleryRef = useRef(null);
 
   const customStyle = {
     maxWidth: "250px",
@@ -28,9 +32,16 @@ const LetakPartner = () => {
     padding: "5px"
 
   };
+
+  useEffect(() => {
+    if (openGallery && galleryRef.current) {
+      galleryRef.current.openGallery();
+    }
+  }, [openGallery]);
   return (
     <div className="container-letak" id="letak">
       <LightGallery
+        onInit={(ref) => galleryRef.current = ref.instance}
 
         speed={500}
         plugins={[lgThumbnail, lgZoom, lgShare, lgVideo, lgAutoplay]}>

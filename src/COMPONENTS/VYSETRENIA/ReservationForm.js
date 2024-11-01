@@ -233,6 +233,9 @@ export default function ReservationForm() {
             .then(async (res) => {
                 const appointmentRef = collection(db, 'reservations');
                 await addDoc(appointmentRef, {
+                    first_name: formData.first_name,
+                    last_name: formData.last_name,
+                    email: formData.email,
                     appointmentTime,
                     date2: formattedDate,
                     about,
