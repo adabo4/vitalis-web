@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad25d0db.css",
-    "main.js": "/static/js/main.3d044752.js",
+    "main.css": "/static/css/main.8973774d.css",
+    "main.js": "/static/js/main.e63c64d4.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/teoxane.png": "/static/media/teoxane.6880f274e17c59857e2b.png",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
     "static/media/bgImgPressure.png": "/static/media/bgImgPressure.1113891a4b54f85153d0.png",
-    "static/media/avene.jpg": "/static/media/avene.42e5171f29125a9f6b3e.jpg",
     "static/media/ZADNE_DEMO_COMP.jpg": "/static/media/ZADNE_DEMO_COMP.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/PREDNA_LEKAREN_COMP.jpg": "/static/media/PREDNA_LEKAREN_COMP.bbfdaab9686d8677d1eb.jpg",
-    "static/media/aderma.jpg": "/static/media/aderma.fab75eb070d412f2adf7.jpg",
-    "static/media/klorane.jpg": "/static/media/klorane.35520586fd204d38e004.jpg",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
-    "static/media/ducray.jpg": "/static/media/ducray.354e6a184973f6addbab.jpg",
+    "static/media/ducray.jpg": "/static/media/ducray.95e54d142aa50bd8a5fe.jpg",
+    "static/media/avene.jpg": "/static/media/avene.5f62f54fa607eb9f7619.jpg",
+    "static/media/cerave_big.jpg": "/static/media/cerave_big.46af270c9f9ca51cb4ad.jpg",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
+    "static/media/cerave.jpg": "/static/media/cerave.cff020621433a5093a1c.jpg",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
     "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
@@ -29,12 +29,12 @@
     "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "index.html": "/index.html",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
-    "main.ad25d0db.css.map": "/static/css/main.ad25d0db.css.map",
-    "main.3d044752.js.map": "/static/js/main.3d044752.js.map",
+    "main.8973774d.css.map": "/static/css/main.8973774d.css.map",
+    "main.e63c64d4.js.map": "/static/js/main.e63c64d4.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad25d0db.css",
-    "static/js/main.3d044752.js"
+    "static/css/main.8973774d.css",
+    "static/js/main.e63c64d4.js"
   ]
 }
