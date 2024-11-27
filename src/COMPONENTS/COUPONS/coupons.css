@@ -1,32 +1,27 @@
-#poukazky {
-
+#coupons {
     background-color: rgb(64, 187, 192);
     margin: 2em 0;
     width: 100%;
 }
 
-#poukazky h2 {
+#coupons h2 {
     text-align: center;
     font-size: 2em;
     margin: 1em;
     padding-top: 2em;
     line-height: 1.1em;
-
 }
 
-.poukazky-container {
+.coupons-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-
-
 }
 
-
-.poukazky-img img {
+.coupons-img img {
     width: 18em;
     height: 11.45em;
     object-fit: contain;
@@ -34,58 +29,45 @@
     border: 2px solid rgba(77, 77, 77, 0.65);
     box-shadow: 0 10px 20px rgba(33, 33, 33, 0.593);
     background-color: white;
-
-
-
-
-
 }
 
-.poukazky-img img:hover {
+.coupons-img img:hover {
     transform: scale(1.05);
     transition: ease-in-out 0.3s;
-
 }
 
-/* DARCEKOVE POUKAZKY */
+/* gift coupons */
 
-#darcekove-poukazky {
+#gift-coupons {
     margin: 2em 0;
-
-
 }
 
-.darceky {
+.gift {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
-.darceky-container {
+.gift-container {
     width: 80%;
     background-color: rgba(64, 187, 192, 0.2);
     margin: 5em auto;
     box-shadow: 2px 3px 13px 5px rgba(0, 0, 0, 0.1);
-
-
 }
 
-.darceky-container h2 {
+.gift-container h2 {
     text-align: left;
     font-size: 2em;
     width: 65%;
     padding: 1em;
-
 }
 
-.darceky-container p {
+.gift-container p {
     font-size: 1.1em;
     padding: .5em 2em;
-
 }
 
-.darceky img {
+.gift img {
     width: 100%;
     max-width: 30em;
     margin: 2em;
@@ -94,44 +76,41 @@
 
 @media screen and (max-width: 1200px) {
 
-    .darceky-container h2,
-    .darceky-container p {
+    .gift-container h2,
+    .gift-container p {
         text-align: center;
         width: 90%;
     }
 }
 
 @media screen and (max-width: 620px) {
-
-    .darceky img {
+    .gift img {
         width: 90%;
     }
 
-    .darceky-container h2 {
+    .gift-container h2 {
         font-size: 1.7em;
     }
 
 }
 
 @media screen and (max-width: 555px) {
-
-    .darceky-container h2 {
+    .gift-container h2 {
         font-size: 1.4em;
     }
 
-    .darceky-container p {
+    .gift-container p {
         padding: .5em;
         margin: 0;
     }
 }
 
 @media screen and (max-width: 320px) {
-
-    .darceky-container h2 {
+    .gift-container h2 {
         font-size: 1.2m;
     }
 
-    .darceky-container p {
+    .gift-container p {
         padding: .5em;
         margin: 0;
     }

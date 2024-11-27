@@ -3,7 +3,7 @@ import './topNav.css'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { BsStopwatch } from 'react-icons/bs'
 
-const TopNav = () => {
+export default function TopNav() {
   return (
     <div className='top-nav'>
       <p className='hours'> <BsStopwatch /> Pondelok-Piatok<br /> 8:00 - 17:00</p>
@@ -12,4 +12,3 @@ const TopNav = () => {
   )
 }
 
-export default TopNav

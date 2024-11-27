@@ -23,7 +23,7 @@
       "heading": null,
       "about": "Meranie glykémie.",
       "timeStamp": "do 5 minút",
-      "price": null,
+      "price": "2,00€",
       "text": "Jednoduché a rýchle meranie hladiny cukru v krvi, ktoré Vám pomôže predchádzať komplikáciám spojenými s cukrovkou.",
       "bgImg": "./bgImg.png"
     },
@@ -32,7 +32,7 @@
       "heading": null,
       "about": "Meranie krvného tlaku.",
       "timeStamp": "do 5 minút",
-      "price": null,
+      "price": "2,00€",
       "text": "Zmeranie krvného tlaku, srdcového pulzu i detekcia nepravidelného srdcového rytmu.",
       "bgImg": "./bgImgPressure.png"
     }

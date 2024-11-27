@@ -1,10 +1,8 @@
-import React from 'react'
 import './dermocentrum.css'
 import dermo1 from '../img/ZADNE_DEMO_COMP.jpg'
 import useScrollIn from '../helpers/useScrollIn'
 
-const Dermocentrum = () => {
-
+export default function Dermocentrum() {
     const options = {
         rootMargin: "0px 0px -50px 0px",
         threshold: .25
@@ -50,20 +48,12 @@ const Dermocentrum = () => {
                         slnečné lúče, znečistenie a stres. Táto rôznorodá zmes vzácnych minerálov má klinicky preukázané posilňujúce, regeneračné a antioxidačné účinky na pokožku.
                     </p>
                 </div>
-
-                <div className="znacky-container">
-                    <div className='znacky-title'>
+                <div className="brands-container">
+                    <div className='brands-title'>
                         <h1>NAŠE ZNAČKY</h1>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
-
     )
 }
-
-export default Dermocentrum

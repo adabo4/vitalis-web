@@ -1,41 +1,29 @@
-import React from "react";
-import './zlavy.css';
-import Oznamy from "../OZNAMY/Oznamy";
-import zlavyimg from "./zlavyimg";
+import './discounts.css';
+import News from "../NEWS/News"
+import discountsimg from "./discountsimg";
 import useScrollIn from "../helpers/useScrollIn";
 
-
-const Zlavy = () => {
+export default function Discounts() {
     const addToRefs = useScrollIn()
     return (
-        <div className='akcie-container' id='zlavy'>
-            <div className='zlavy-container'>
-
-                <div className='zlavy-header'>
+        <div className='akcie-container' id='discounts'>
+            <div className='discounts-container'>
+                <div className='discounts-header'>
                     <h1>AKTUÁLNE ZĽAVY</h1>
-
                 </div>
-
-                <div className="zlavy-images">
+                <div className="discounts-images">
                     {
-                        zlavyimg.map((item, i) => {
+                        discountsimg.map((item, i) => {
                             return (
                                 <div ref={addToRefs} className="one-img slide-in">
                                     <a key={item.id} href={item.src} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt}></img></a>
                                 </div>
                             )
-
-
                         })
                     }
                 </div>
-
-                <Oznamy></Oznamy>
-
+                <News></News>
             </div>
         </div>
-
     )
 }
-
-export default Zlavy

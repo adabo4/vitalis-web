@@ -2,7 +2,7 @@ import React from 'react'
 import './billboard.css'
 import { Link } from 'react-scroll'
 
-const Billboard = () => {
+export default function Billboard() {
   return (
     <div className='bill-container' >
       <div className='bill-background'>
@@ -18,5 +18,3 @@ const Billboard = () => {
     </div>
   )
 }
-
-export default Billboard

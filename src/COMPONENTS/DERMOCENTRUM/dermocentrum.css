@@ -4,15 +4,11 @@
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-
 }
-
 
 .dermo-box {
     margin: 4em;
     margin-bottom: 2em;
-
-
 }
 
 .dermo-top {
@@ -22,7 +18,6 @@
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 4em;
-
 
 }
 
@@ -46,41 +41,30 @@
 .left-p {
     line-height: 1.5em;
     margin-top: 30px;
-
 }
 
 .dermo-box img {
-
     width: 43em;
     height: 30em;
     margin-top: 35px;
-
 }
 
 .scale-up {
     transform: scale(.8);
     transition: transform .5s ease-in-out, opacity .5s ease-in-out;
     opacity: 0;
-
-
 }
 
 .scale-up.scale-up-appear {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
-    /* Smooth transition */
     opacity: 1;
 }
 
 .scale-up.scale-final {
     transform: scale(1);
     transition: transform 0.3s ease-in-out;
-    /* Smooth transition */
 }
-
-
-
-
 
 .dermo-top img {
     box-shadow: 0 0 30px rgba(38, 38, 38, 0.64);
@@ -94,8 +78,6 @@
     background-color: rgb(255, 255, 255);
 }
 
-
-
 .dermo-footer {
     display: flex;
     flex-direction: row;
@@ -103,8 +85,6 @@
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 3em;
-
-
     /* border-bottom: 1px solid rgba(156, 156, 156, 0.66); */
 }
 
@@ -118,8 +98,7 @@
     padding: 1.5em;
 }
 
-
-.znacky-container {
+.brands-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,23 +106,17 @@
 
 }
 
-.znacky-title h1 {
+.brands-title h1 {
     border-bottom: 3px solid rgb(64, 187, 192);
     padding-bottom: .2em;
     margin: 0 0 30px;
     line-height: .9em;
 }
 
-
-
-
-
 @media screen and (max-width:1400px) {
     .dermo-left {
         margin-right: 0em;
     }
-
-
 }
 
 @media screen and (max-width:1200px) {
@@ -167,7 +140,6 @@
     .zlavy-images img {
         margin-right: 0em;
     }
-
 }
 
 @media screen and (max-width:665px) {
@@ -179,8 +151,7 @@
 }
 
 @media screen and (max-width:500px) {
-
-    .znacky-title h1 {
+    .brands-title h1 {
         font-size: 1.5em;
     }
 
@@ -204,13 +175,8 @@
     }
 
     .slide-up {
-
         transform: translateY(50%);
-
     }
-
-
-
 }
 
 @media screen and (max-width:425px) {
@@ -219,23 +185,4 @@
         max-width: 20em;
         max-height: 15em;
     }
-
-    /* 
-    .dermo-footer p {
-        width: 10em;
-        box-shadow: 0 5px 10px rgba(101, 101, 101, 0.35);
-    } */
-
-
-
-
-
 }
-
-/* @media screen and (max-width: 375px) {
-
-    .dermo-footer p {
-        width: 5em;
-    }
-
-} */

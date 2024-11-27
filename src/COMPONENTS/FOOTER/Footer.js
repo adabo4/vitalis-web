@@ -1,5 +1,3 @@
-import React from 'react'
-
 import './footer.css'
 import { AiOutlineHome } from 'react-icons/ai'
 import { BsFacebook } from 'react-icons/bs'
@@ -8,36 +6,25 @@ import { useRef, useState } from 'react'
 import { HashLink } from 'react-router-hash-link';
 
 
-const Footer = () => {
-
+export default function Footer() {
   const date = new Date();
   const year = date.getFullYear();
-
-  //eslint-disable-next-line 
   const service_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-  // eslint-disable-next-line 
   const template_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID_CONTACT_FORM;
-  // eslint-disable-next-line 
   const public_ID = process.env.REACT_APP_EMAILJS_PUBLIC_ID;
-
   const form = useRef();
-
   const [isChecked, setIsChecked] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [values, setValues] = useState({
-
     user_name: "",
     user_email: "",
     message: ""
   })
 
-
-
   function isValidEmail(email) {
     const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return pattern.test(email);
   }
-
 
   const [errors, setErrors] = useState({
     user_name: "",
@@ -54,7 +41,6 @@ const Footer = () => {
     })
   }
 
-
   const handleCheckboxChange = () => {
     setIsChecked((prevChecked) => !prevChecked);
   };
@@ -70,10 +56,7 @@ const Footer = () => {
           ...newErrors,
           user_name: "Prosím zadajte meno."
         };
-
-
       }
-
       if (values.user_email === "" || !isValidEmail(values.user_email)) {
         newErrors = {
           ...newErrors,
@@ -103,7 +86,7 @@ const Footer = () => {
               alert("Vyskytol sa problém s odoslaním mailu. Na odstránení sa pracuje.");
             })
           .finally(() => {
-            setIsLoading(false); // Set loading state back to false after email sending completes
+            setIsLoading(false);
             setValues({
               ...values,
               user_name: "",
@@ -118,12 +101,6 @@ const Footer = () => {
     };
 
   }
-
-
-
-
-
-
   return (
     <>
       <div className='footer-container' id='kontakt'>
@@ -173,7 +150,6 @@ const Footer = () => {
                       }
                     }
                   }>
-
                   </input>
                   <label className='error-label'>{errors.user_name}</label>
                 </div>
@@ -198,7 +174,6 @@ const Footer = () => {
                   </input>
                 </div>
               </div>
-
               <div className="textarea-wrapper">
                 <textarea className={errors.message ? "form-textarea error-border" : "form-textarea"} rows="8" placeholder='' name='message' value={values.message} onChange={handleChange} onBlur={
                   () => {
@@ -226,15 +201,13 @@ const Footer = () => {
             </form>
           </div>
         </div >
-
-
       </div >
+
       <div className="subfooter">
         <ul>
           <li><HashLink to="/gdpr#gdpr" spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Ochrana súkromia</HashLink><span>|</span></li>
-          <li> <HashLink to="/cookies#cookies" spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Cookies</HashLink><span>|</span></li>
+          <li><HashLink to="/cookies#cookies" spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Cookies</HashLink><span>|</span></li>
           <li className='right'>Lekáreň Vitalis {year}</li>
-
         </ul>
       </div>
 
@@ -242,4 +215,3 @@ const Footer = () => {
   )
 }
 
-export default Footer

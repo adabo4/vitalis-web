@@ -19,13 +19,11 @@ import lgShare from "lightgallery/plugins/share";
 
 
 import LightGallery from "lightgallery/react/Lightgallery.es5";
-import "./letak.css";
+import "./leafletpartner.css";
 
 
-const LetakPartner = ({ openGallery }) => {
-
+export default function LeafletPartner({ openGallery }) {
   const galleryRef = useRef(null);
-
   const customStyle = {
     maxWidth: "250px",
     width: "200px",
@@ -42,11 +40,8 @@ const LetakPartner = ({ openGallery }) => {
     <div className="container-letak" id="letak">
       <LightGallery
         onInit={(ref) => galleryRef.current = ref.instance}
-
         speed={500}
         plugins={[lgThumbnail, lgZoom, lgShare, lgVideo, lgAutoplay]}>
-
-
         {
           IMAGES && IMAGES.map((item, id) =>
             <button data-lg-size="1240-1750" className="gallery-item" data-src={item.image}>
@@ -58,4 +53,4 @@ const LetakPartner = ({ openGallery }) => {
   )
 }
 
-export default LetakPartner;
+

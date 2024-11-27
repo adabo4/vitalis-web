@@ -1,4 +1,4 @@
-.zlavy-container {
+.discounts-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
 
 }
 
-.zlavy-header h1 {
+.discounts-header h1 {
 
     border-bottom: 3px solid rgb(64, 187, 192);
     padding-bottom: 0.1em;
@@ -21,7 +21,7 @@
 
 }
 
-.zlavy-images {
+.discounts-images {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,7 +32,7 @@
 
 }
 
-.zlavy-images .one-img {
+.discounts-images .one-img {
     width: 18em;
     height: 18em;
     overflow: hidden;
@@ -41,7 +41,7 @@
     margin: 1em;
 }
 
-.zlavy-images img {
+.discounts-images img {
     width: 18em;
     height: 18em;
     object-fit: cover;
@@ -50,25 +50,25 @@
 
 
 
-/* .zlavy-images a:nth-child(3) img {
+/* .discounts-images a:nth-child(3) img {
     border: 2px solid rgba(77, 77, 77, 0.44);
     box-shadow: 0 10px 20px rgba(33, 33, 33, 0.593);
     margin-bottom: 2em;
     animation: move infinite 7s linear;
 } */
 
-/* .zlavy-images .one-img:nth-child(3) a img {
+/* .discounts-images .one-img:nth-child(3) a img {
 
     width: 90%;
     margin: 0 auto;
 
 } */
 
-.zlavy-images .one-img:nth-child(1) a img {
+.discounts-images .one-img:nth-child(1) a img {
     object-position: 50% 60%;
 }
 
-.zlavy-images a img:hover {
+.discounts-images a img:hover {
     transform: scale(1.06);
 
 }
@@ -91,7 +91,7 @@
 
 
 
-/* .zlavy-images img:hover {
+/* .discounts-images img:hover {
     transform: scale(1.05);
     transition: ease-in-out .3s;
 } */
@@ -100,7 +100,7 @@
 
 @media screen and (max-width:500px) {
 
-    .zlavy-header h1 {
+    .discounts-header h1 {
         font-size: 1.5em;
 
 

@@ -1,17 +1,17 @@
 import React from 'react'
-import "./oznamy.css";
+import "./news.css";
 import useScrollIn from '../helpers/useScrollIn';
 
-export default function Oznamy() {
+export default function News() {
     const addToRefs = useScrollIn()
     return (
         <>
-            <div className='oznamy-container'>
-                <div className="oznamy">
-                    <div className="oznamy-header">
+            <div className='news-container'>
+                <div className="news">
+                    <div className="news-header">
                         <h1>AKTUALITY</h1>
                     </div>
-                    <p ref={addToRefs} className='slide-in'>Dňa 21.10. 2024 od 10:00 - 16:00 hod. bude v Dermocentre Vitalis prebiehať PROMO AKCIA na kozmetiku Avène, A-Derma, Ducray a Klorane,
+                    <p ref={addToRefs} className='slide-in'>Dňa 18.11. 2024 od 10:00 - 16:00 hod. bude v Dermocentre Vitalis prebiehať PROMO AKCIA na kozmetiku Avène, A-Derma, Ducray a Klorane,
                         spojená s diagnostikou pleti. Samozrejmosťou budú aj zľavy na každý jeden produkt.
                     </p>
                 </div>

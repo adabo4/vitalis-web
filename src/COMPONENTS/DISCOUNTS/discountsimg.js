@@ -1,5 +1,4 @@
-const zlavyimg = [
-
+const discountsimg = [
 
     {
         id: "2",
@@ -7,14 +6,12 @@ const zlavyimg = [
         src: require("../img/ZLAVY/cerave_big.jpg"),
         alt: 'Cerave'
     },
-
     {
         id: "1",
         url: require("../img/ZLAVY/teoxane.png"),
         src: require("../img/ZLAVY/teoxane.png"),
         alt: 'Teoxane'
     },
-
     {
         id: "4",
         src: require("../img/ZLAVY/ducray.jpg"),
@@ -27,7 +24,6 @@ const zlavyimg = [
         src: require("../img/ZLAVY/avene.jpg"),
         alt: 'Avene'
     }
-
 ]
 
-export default zlavyimg;
+export default discountsimg;

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./cookiesAbout.css"
 import { FaGreaterThan } from "react-icons/fa"
-import './toggleButton.css'; // Import the CSS file
+import './toggleButton.css';
 import { useEffect, useState } from 'react';
 import { setLocalStorage } from '../../lib/storageHelper';
 import setCookie from "../../lib/cookieHelper"
@@ -11,56 +11,33 @@ import titleUnderline from '../img/title-underline.png'
 import { LiaCookieSolid } from "react-icons/lia";
 
 export default function CookiesAbout({ setShowBanner }) {
-
     const [cookieConsent, setCookieConsent] = useState(false);
     const [pendingConsent, setPendingConsent] = useState(false);
-
-
 
     const handleToggle = () => {
         setCookieConsent(!cookieConsent);
         setPendingConsent(true);
-
-
     };
-
 
     const handleSave = () => {
         setLocalStorage("cookie_consent", cookieConsent);
-        setPendingConsent(!pendingConsent); // Reset pending consent
-
-
+        setPendingConsent(!pendingConsent);
         if (cookieConsent) {
-            // Set the "consent" cookie when user grants consent
-            // const expirationDate = new Date();
-            // expirationDate.setTime(expirationDate.getTime() + 15000);
-            // document.cookie = `consent=granted; expires=${expirationDate.toUTCString()}; path=/`;
             setCookie("consent", "granted", 30);
             const newValue = cookieConsent ? 'granted' : 'denied';
             window.gtag("consent", 'update', {
                 'analytics_storage': newValue
             });
-
-
         } else {
-            // Remove the "consent" cookie when user declines consent
-            // document.cookie = "consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-            // const expirationDate = new Date();
-            // expirationDate.setTime(expirationDate.getTime() + 15000);
-            // document.cookie = `consent=denied; expires=${expirationDate.toUTCString()}; path=/`;
             setCookie("consent", "denied", 30);
             const newValue = cookieConsent ? 'granted' : 'denied';
             window.gtag("consent", 'update', {
                 'analytics_storage': newValue
             });
             setLocalStorage("cookie_consent", cookieConsent);
-
         }
-
         setShowBanner(false);
-
     };
-
 
     useEffect(() => {
         const storedCookieConsent = localStorage.getItem("cookie_consent");
@@ -68,16 +45,11 @@ export default function CookiesAbout({ setShowBanner }) {
             setCookieConsent(storedCookieConsent === "true");
         }
 
-        // Check if the consent cookie has expired
         const consentCookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('consent='));
         if (!consentCookie) {
-            // If consent cookie doesn't exist or has expired, set cookieConsent to null
             setCookieConsent(null);
         }
-
-
     }, []);
-
 
     return (
         <>
@@ -93,7 +65,6 @@ export default function CookiesAbout({ setShowBanner }) {
                                 type="checkbox"
                                 checked={cookieConsent}
                                 onChange={handleToggle}
-
                             />
                             <span className={cookieConsent ? "toggle toggled" : "toggle"}></span>
                         </label>
@@ -101,7 +72,6 @@ export default function CookiesAbout({ setShowBanner }) {
                     </div>
                     {/* <ToggleButton cookieConsent={cookieConsent} handleSave={handleSave} handleToggle={handleToggle}></ToggleButton> */}
                 </div>
-
                 <button className='toggle-btn' onClick={handleSave}>Uložiť preferenciu <FaGreaterThan className='fa-icon' /></button>
             </div>
 
@@ -120,7 +90,6 @@ export default function CookiesAbout({ setShowBanner }) {
                             <LiaCookieSolid className='cookie-icon' />
                         </div>
                         <p>Cookie je krátky textový súbor, ktorý sa po navštívení našej webovej stránky uloží na pevný disk počítača alebo na iné zariadenie. Webovým stránkam umožňuje napríklad zapamätať si informácie o vašej návšteve, preferovaný jazyk a ďalšie nastavenia.</p>
-
                         <LiaCookieSolid className='cookie-icon-right' />
                         <h2>Naša webová stránka využíva nasledovné cookies:</h2>
                         <p>Analytické cookies, ktoré slúžia pre anonymný zber dát zákazníckeho správania na webe www.lekarenvitalis.sk spoločnosti LEKAMED spol. s.r.o. a neobsahujú osobné údaje. Tieto cookies sú zbierané až po udelení súhlasu zo strany užívateľa webovej stránky spoločnosti LEKAMED spol. s.r.o.</p>
@@ -143,13 +112,8 @@ export default function CookiesAbout({ setShowBanner }) {
                         <p>Príjemcovia, ktorí spracúvajú údaje získané prostredníctvom cookies využívaných na web stránke www.lekarenvitalis.sk sú:</p>
                         <p>- Google Ireland Limited Gordon House, Barrow Street, Dublin 4, Ireland</p>
                     </div>
-
                 </div>
-
-
-
             </div>
-
 
             <h3 style={{ textAlign: "center" }}>Druhy spracúvaných cookies</h3>
             <div className='table-container'>
@@ -173,14 +137,10 @@ export default function CookiesAbout({ setShowBanner }) {
                             <td>Google Ireland Limited Gordon House, Barrow Street, Dublin 4, Ireland</td>
                             <td><Link to="https://support.google.com/analytics/topic/2919631?hl=sk&ref_topic=1008008&sjid=9083871933793431562-EU">Bližšie informácie o ochrane súkromia nájdete na stránkach Google Analytics.</Link></td>
                         </tr>
-
-
                     </tbody>
                 </table>
             </div>
-
             <Footer />
-
         </>
     )
 }
