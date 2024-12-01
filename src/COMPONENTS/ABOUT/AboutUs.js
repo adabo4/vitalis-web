@@ -1,6 +1,6 @@
 
 import './aboutus.css'
-import onas from '../img/PREDNA_LEKAREN_COMP.jpg'
+import onas from '../img/front_office_comp.jpg'
 import { HashLink } from 'react-router-hash-link'
 import useScrollIn from '../helpers/useScrollIn'
 

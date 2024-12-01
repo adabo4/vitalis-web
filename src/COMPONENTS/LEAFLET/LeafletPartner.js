@@ -1,12 +1,10 @@
-import React from "react"
-
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
 import "lightgallery/css/lg-autoplay.css";
 import "lightgallery/css/lg-share.css";
 import IMAGES from './partner.json'
-import './letak.scss';
+import './leaflet.scss';
 import { useEffect } from "react";
 import { useRef } from "react";
 
@@ -16,8 +14,6 @@ import lgZoom from "lightgallery/plugins/zoom";
 import lgAutoplay from "lightgallery/plugins/autoplay";
 import lgVideo from "lightgallery/plugins/video";
 import lgShare from "lightgallery/plugins/share";
-
-
 import LightGallery from "lightgallery/react/Lightgallery.es5";
 import "./leafletpartner.css";
 
@@ -37,7 +33,7 @@ export default function LeafletPartner({ openGallery }) {
     }
   }, [openGallery]);
   return (
-    <div className="container-letak" id="letak">
+    <div className="container-leaflet" id="letak">
       <LightGallery
         onInit={(ref) => galleryRef.current = ref.instance}
         speed={500}

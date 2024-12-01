@@ -1,28 +1,29 @@
 const discountsimg = [
+    {
+        src: require("../img/DISCOUNTS/bioderma2.png"),
+        url: require("../img/DISCOUNTS/bioderma2.png"),
+        alt: 'Bioderma'
+    },
 
     {
-        id: "2",
-        url: require("../img/ZLAVY/cerave.jpg"),
-        src: require("../img/ZLAVY/cerave_big.jpg"),
-        alt: 'Cerave'
-    },
-    {
-        id: "1",
-        url: require("../img/ZLAVY/teoxane.png"),
-        src: require("../img/ZLAVY/teoxane.png"),
-        alt: 'Teoxane'
-    },
-    {
-        id: "4",
-        src: require("../img/ZLAVY/ducray.jpg"),
-        url: require("../img/ZLAVY/ducray.jpg"),
-        alt: 'Ducray'
-    },
-    {
-        id: "1",
-        url: require("../img/ZLAVY/avene.jpg"),
-        src: require("../img/ZLAVY/avene.jpg"),
+        url: require("../img/DISCOUNTS/avene.jpg"),
+        src: require("../img/DISCOUNTS/avene.jpg"),
         alt: 'Avene'
+    },
+    {
+        url: require("../img/DISCOUNTS/bioderma3.png"),
+        src: require("../img/DISCOUNTS/bioderma3.png"),
+        alt: 'Bioderma'
+    },
+    {
+        url: require("../img/DISCOUNTS/bioderma.png"),
+        src: require("../img/DISCOUNTS/bioderma.png"),
+        alt: 'Bioderma'
+    },
+    {
+        url: require("../img/DISCOUNTS/ducray.jpg"),
+        src: require("../img/DISCOUNTS/ducray.jpg"),
+        alt: 'Ducray'
     }
 ]
 

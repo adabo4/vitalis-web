@@ -1,5 +1,5 @@
 import './dermocentrum.css'
-import dermo1 from '../img/ZADNE_DEMO_COMP.jpg'
+import dermo1 from '../img/back_office_comp.jpg'
 import useScrollIn from '../helpers/useScrollIn'
 
 export default function Dermocentrum() {
