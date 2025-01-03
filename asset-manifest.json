@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.61393dd8.css",
-    "main.js": "/static/js/main.0aca12d2.js",
+    "main.js": "/static/js/main.e7406dfe.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
+    "static/media/esthederm.png": "/static/media/esthederm.233f7a9ee0487ae9a300.png",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
     "static/media/bgImgPressure.png": "/static/media/bgImgPressure.1113891a4b54f85153d0.png",
-    "static/media/bioderma.png": "/static/media/bioderma.239e37ae37f4e777f55b.png",
     "static/media/back_office_comp.jpg": "/static/media/back_office_comp.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/front_office_comp.jpg": "/static/media/front_office_comp.bbfdaab9686d8677d1eb.jpg",
-    "static/media/bioderma3.png": "/static/media/bioderma3.ad681783c5bc26da100d.png",
-    "static/media/bioderma2.png": "/static/media/bioderma2.a56b16b96741b0560756.png",
+    "static/media/bioderma.png": "/static/media/bioderma.3860cf7bb6cad1833513.png",
+    "static/media/klorane.jpg": "/static/media/klorane.4443fc9fc0276c422c6e.jpg",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
-    "static/media/ducray.jpg": "/static/media/ducray.95e54d142aa50bd8a5fe.jpg",
-    "static/media/avene.jpg": "/static/media/avene.5f62f54fa607eb9f7619.jpg",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
+    "static/media/avene.jpg": "/static/media/avene.ccf9226fb8c29c83e8ee.jpg",
+    "static/media/aderma.jpg": "/static/media/aderma.46744b514c45388c6614.jpg",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
     "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
@@ -30,11 +30,11 @@
     "index.html": "/index.html",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
     "main.61393dd8.css.map": "/static/css/main.61393dd8.css.map",
-    "main.0aca12d2.js.map": "/static/js/main.0aca12d2.js.map",
+    "main.e7406dfe.js.map": "/static/js/main.e7406dfe.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61393dd8.css",
-    "static/js/main.0aca12d2.js"
+    "static/js/main.e7406dfe.js"
   ]
 }
