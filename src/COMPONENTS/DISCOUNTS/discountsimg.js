@@ -1,19 +1,13 @@
 const discountsimg = [
     {
-        src: require("../img/DISCOUNTS/bioderma2.png"),
-        url: require("../img/DISCOUNTS/bioderma2.png"),
-        alt: 'Bioderma'
-    },
-
-    {
         url: require("../img/DISCOUNTS/avene.jpg"),
         src: require("../img/DISCOUNTS/avene.jpg"),
         alt: 'Avene'
     },
     {
-        url: require("../img/DISCOUNTS/bioderma3.png"),
-        src: require("../img/DISCOUNTS/bioderma3.png"),
-        alt: 'Bioderma'
+        url: require("../img/DISCOUNTS/klorane.jpg"),
+        src: require("../img/DISCOUNTS/klorane.jpg"),
+        alt: 'Klorane'
     },
     {
         url: require("../img/DISCOUNTS/bioderma.png"),
@@ -21,9 +15,14 @@ const discountsimg = [
         alt: 'Bioderma'
     },
     {
-        url: require("../img/DISCOUNTS/ducray.jpg"),
-        src: require("../img/DISCOUNTS/ducray.jpg"),
-        alt: 'Ducray'
+        url: require("../img/DISCOUNTS/aderma.jpg"),
+        src: require("../img/DISCOUNTS/aderma.jpg"),
+        alt: 'Aderma'
+    },
+    {
+        url: require("../img/DISCOUNTS/esthederm.png"),
+        src: require("../img/DISCOUNTS/esthederm.png"),
+        alt: 'Esthederm'
     }
 ]
 
