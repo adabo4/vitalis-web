@@ -5,9 +5,9 @@ const discountsimg = [
         alt: 'Avene'
     },
     {
-        url: require("../img/DISCOUNTS/klorane.jpg"),
-        src: require("../img/DISCOUNTS/klorane.jpg"),
-        alt: 'Klorane'
+        url: require("../img/DISCOUNTS/lrp.jpg"),
+        src: require("../img/DISCOUNTS/lrp.jpg"),
+        alt: 'La Roche Posay'
     },
     {
         url: require("../img/DISCOUNTS/bioderma.png"),
@@ -15,14 +15,19 @@ const discountsimg = [
         alt: 'Bioderma'
     },
     {
-        url: require("../img/DISCOUNTS/aderma.jpg"),
-        src: require("../img/DISCOUNTS/aderma.jpg"),
-        alt: 'Aderma'
+        url: require("../img/DISCOUNTS/lrp2.jpg"),
+        src: require("../img/DISCOUNTS/lrp2.jpg"),
+        alt: 'La Roche Posay'
     },
     {
-        url: require("../img/DISCOUNTS/esthederm.png"),
-        src: require("../img/DISCOUNTS/esthederm.png"),
-        alt: 'Esthederm'
+        url: require("../img/DISCOUNTS/cerave.jpg"),
+        src: require("../img/DISCOUNTS/cerave.jpg"),
+        alt: 'Cerave'
+    },
+    {
+        url: require("../img/DISCOUNTS/vichy.jpg"),
+        src: require("../img/DISCOUNTS/vichy.jpg"),
+        alt: 'Vichy'
     }
 ]
 

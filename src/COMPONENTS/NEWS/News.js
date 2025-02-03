@@ -11,7 +11,7 @@ export default function News() {
                     <div className="news-header">
                         <h1>AKTUALITY</h1>
                     </div>
-                    <p ref={addToRefs} className='slide-in'>Dňa 09.12. 2024 od 10:00 - 16:00 hod. bude v Dermocentre Vitalis prebiehať PROMO AKCIA na kozmetiku Avène, A-Derma, Ducray a Klorane,
+                    <p ref={addToRefs} className='slide-in'>Dňa 17.02. 2025 od 10:00 - 16:00 hod. bude v Dermocentre Vitalis prebiehať PROMO AKCIA na kozmetiku Avène, A-Derma, Ducray a Klorane,
                         spojená s diagnostikou pleti. Samozrejmosťou budú aj zľavy na každý jeden produkt.
                     </p>
                 </div>
