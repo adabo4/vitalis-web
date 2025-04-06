@@ -1,5 +1,5 @@
 
-import Topnav from "./COMPONENTS/Topnav/Topnav"
+import TopNav from './COMPONENTS/TopNav/TopNav';
 import NavBar from './COMPONENTS/Navbar/NavBar';
 import { Routes, Route } from 'react-router-dom'
 import Gdpr from './COMPONENTS/Gdpr/Gdpr';
@@ -25,7 +25,7 @@ export default function App() {
     <div className="App">
       <GoogleAnalytics GA_MEASUREMENT_ID={GoogleAnalyticsID} />
       {showBanner && <CookieBanner setShowBanner={setShowBanner} />}
-      <Topnav></Topnav>
+      <TopNav></TopNav>
       <NavBar setShowLetakPartner={setShowLetakPartner} setShowPoukazky={setShowPoukazky} showLetakPartner={showLetakPartner} setOpenGallery={setOpenGallery}></NavBar>
       <Routes>
         <Route path='/' element={<Home />} ></Route>
