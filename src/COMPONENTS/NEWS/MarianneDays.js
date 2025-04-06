@@ -17,17 +17,11 @@ const MarianneDays = () => {
         });
     }, []);
 
-
     const options = {
         rootMargin: "-50px 0px 0px 0px",
         threshold: .1
     }
-
-
     const addToRefs = useScrollin(options)
-
-
-
 
     return (
         <>
@@ -37,8 +31,8 @@ const MarianneDays = () => {
                     </div></div>
                 <div ref={addToRefs} className="container-text left slide-in pop-in">
                     <img src={marianneLogo} alt="Dni Marianne Logo" />
-                    <p className='date'>20.-23. Septembra</p>
-                    <p className='text'><span className='red'><strong>Novinka!</strong></span> Nakupujte výhodne <strong>až do pondelka!</strong></p>
+                    <p className='date'>11.-24. Apríl</p>
+                    <p className='text'><span className='red'></span> Nakupujte výhodne <strong>až do pondelka!</strong></p>
                 </div>
 
                 <div ref={addToRefs} className="svg-container">
@@ -61,10 +55,6 @@ const MarianneDays = () => {
                     </div>
                 </div>
             </section>
-
-
-
-
         </>
     )
 }

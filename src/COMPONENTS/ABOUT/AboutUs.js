@@ -15,6 +15,9 @@ export default function AboutUs() {
     return (
         <>
             <div className='about-container' id='onas' >
+                <div className='about-header'>
+                    <h1 className='about-us-title'><u>O nás</u></h1>
+                </div>
                 <div className='about-box' >
                     <div className='about-left'>
                         <div ref={addToRefs} className='left-text slide-right'>

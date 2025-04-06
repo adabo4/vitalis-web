@@ -1,5 +1,4 @@
 import './discounts.css';
-import News from "../NEWS/News"
 import discountsimg from "./discountsimg";
 import useScrollIn from "../helpers/useScrollIn";
 
@@ -22,7 +21,6 @@ export default function Discounts() {
                         })
                     }
                 </div>
-                <News></News>
             </div>
         </div>
     )

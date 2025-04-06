@@ -39,7 +39,15 @@ body {
 
   .container-leaflet {
     width: 1000px;
+    margin-top: 1em;
 
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .container-leaflet {
+    margin-top: 1em;
   }
 
 }
@@ -50,6 +58,7 @@ body {
   }
 
   .container-leaflet {
+
     width: 40%;
 
   }

@@ -49,6 +49,7 @@ export default function NavBar({ setShowLetakPartner, setShowPoukazky, setOpenGa
       </div>
       <ul className={`${show ? "nav-list show" : "nav-list hide"}`}>
         <li><HashLink to="/" onClick={() => navClick("Navigation", "Home link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Domov</HashLink></li>
+        <li><HashLink to="/news#news" onClick={() => navClick("Navigation", "News link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Aktuality</HashLink></li>
         <li><HashLink to="/onas#onas" onClick={() => navClick("Navigation", "O nás link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>O Nás</HashLink></li>
         <li><HashLink to="/dermocentrum#dermocentrum" onClick={() => navClick("Navigation", "Dermocentrum link clicked")} style={customStyle} spy={true} smooth={true} offset={50} duration={500}>Dermocentrum</HashLink></li>
         <li><HashLink to="/letak#letak" style={customStyle} onClick={letakClick} spy={true} smooth={true} offset={50} duration={500} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>

@@ -1,18 +1,18 @@
 
-import TopNav from './COMPONENTS/TOPNAV/TopNav';
-import NavBar from './COMPONENTS/NAVBAR/NavBar';
+import TopNav from './COMPONENTS/Topnav/TopNav';
+import NavBar from './COMPONENTS/Navbar/NavBar';
 import { Routes, Route } from 'react-router-dom'
-import Gdpr from './COMPONENTS/GDPR/Gdpr';
+import Gdpr from './COMPONENTS/Gdpr/Gdpr';
 import Home from './Home';
 import { useState } from 'react';
-import GoogleAnalytics from './COMPONENTS/GOOGLEANALYTICS/GoogleAnalytics';
+import GoogleAnalytics from './COMPONENTS/GoogleAnalytics/GoogleAnalytics';
 import CookieBanner from './COMPONENTS/CookieBanner/CookieBanner';
 import CookiesAbout from './COMPONENTS/CookiesAbout/CookiesAbout';
-import Reservations from './COMPONENTS/VYSETRENIA/Reservations';
-import AppointmentForm from './COMPONENTS/VYSETRENIA/AppointmentForm';
-import ReservationForm from './COMPONENTS/VYSETRENIA/ReservationForm';
-import ReservationCreated from './COMPONENTS/VYSETRENIA/ReservationCreated';
-import LeafletPartner from './COMPONENTS/LEAFLET/LeafletPartner';
+import Reservations from './COMPONENTS/Vysetrenia/Reservations';
+import AppointmentForm from './COMPONENTS/Vysetrenia/AppointmentForm';
+import ReservationForm from './COMPONENTS/Vysetrenia/ReservationForm';
+import ReservationCreated from './COMPONENTS/Vysetrenia/ReservationCreated';
+import LeafletPartner from './COMPONENTS/Leaflet/LeafletPartner';
 
 export default function App() {
   const [showLetakPartner, setShowLetakPartner] = useState(false);
@@ -29,6 +29,7 @@ export default function App() {
       <NavBar setShowLetakPartner={setShowLetakPartner} setShowPoukazky={setShowPoukazky} showLetakPartner={showLetakPartner} setOpenGallery={setOpenGallery}></NavBar>
       <Routes>
         <Route path='/' element={<Home />} ></Route>
+        <Route path='/news' element={<Home />}></Route>
         <Route path='/onas' element={<Home />} ></Route>
         <Route path='/letak' element={<LeafletPartner openGallery={openGallery} />}></Route>
         <Route path='/gdpr' element={<Gdpr />} ></Route>

@@ -5,7 +5,7 @@ import './toggleButton.css';
 import { useEffect, useState } from 'react';
 import { setLocalStorage } from '../../lib/storageHelper';
 import setCookie from "../../lib/cookieHelper"
-import Footer from '../FOOTER/Footer'
+import Footer from '../Footer/Footer'
 import { Link } from 'react-router-dom'
 import titleUnderline from '../img/title-underline.png'
 import { LiaCookieSolid } from "react-icons/lia";

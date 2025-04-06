@@ -241,6 +241,7 @@ export default function ReservationForm() {
                     about,
                     price: price ? price : "Zdarma",
                     createdAt: new Date(),
+                    secretKey: process.env.REACT_APP_FIREBASE_SECRET_KEY // Add secret key
                 });
                 openSuccessModal();
                 resetFormState();
