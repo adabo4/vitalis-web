@@ -9,7 +9,7 @@ import Footer from './COMPONENTS/FOOTER/Footer'
 import AboutUs from './COMPONENTS/ABOUT/AboutUs'
 import LoyaltyCard from './COMPONENTS/LoyaltyCard/LoyaltyCard';
 import LeafletPartner from './COMPONENTS/LEAFLET/LeafletPartner';
-import Coupons from './COMPONENTS/Coupons/Coupons';
+import Coupons from './COMPONENTS/COUPONS/Coupons';
 import { useLocation } from 'react-router-dom';
 
 export default function Home({ showPoukazky }) {
