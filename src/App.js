@@ -1,6 +1,6 @@
 
 import TopNav from './COMPONENTS/TOPNAV/TopNav';
-import NavBar from './COMPONENTS/Navbar/NavBar';
+import NavBar from './COMPONENTS/NAVBAR/NavBar';
 import { Routes, Route } from 'react-router-dom'
 import Gdpr from './COMPONENTS/Gdpr/Gdpr';
 import Home from './Home';
