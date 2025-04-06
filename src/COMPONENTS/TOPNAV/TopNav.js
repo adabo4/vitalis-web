@@ -1,9 +1,9 @@
 import React from 'react'
-import './topNav.css'
+import './topnav.css'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { BsStopwatch } from 'react-icons/bs'
 
-export default function TopNav() {
+export default function Topnav() {
   return (
     <div className='top-nav'>
       <p className='hours'> <BsStopwatch /> Pondelok-Piatok<br /> 8:00 - 17:00</p>

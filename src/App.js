@@ -1,5 +1,5 @@
 
-import TopNav from './COMPONENTS/Topnav/TopNav';
+import TopNav from './COMPONENTS/Topnav/Topnav';
 import NavBar from './COMPONENTS/Navbar/NavBar';
 import { Routes, Route } from 'react-router-dom'
 import Gdpr from './COMPONENTS/Gdpr/Gdpr';
