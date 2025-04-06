@@ -5,14 +5,14 @@ import { Routes, Route } from 'react-router-dom'
 import Gdpr from './COMPONENTS/GDPR/Gdpr';
 import Home from './Home';
 import { useState } from 'react';
-import GoogleAnalytics from './COMPONENTS/GoogleAnalytics/GoogleAnalytics';
+import GoogleAnalytics from './COMPONENTS/GOOGLEANALYTICS/GoogleAnalytics';
 import CookieBanner from './COMPONENTS/CookieBanner/CookieBanner';
 import CookiesAbout from './COMPONENTS/CookiesAbout/CookiesAbout';
-import Reservations from './COMPONENTS/Vysetrenia/Reservations';
-import AppointmentForm from './COMPONENTS/Vysetrenia/AppointmentForm';
-import ReservationForm from './COMPONENTS/Vysetrenia/ReservationForm';
-import ReservationCreated from './COMPONENTS/Vysetrenia/ReservationCreated';
-import LeafletPartner from './COMPONENTS/Leaflet/LeafletPartner';
+import Reservations from './COMPONENTS/VYSETRENIA/Reservations';
+import AppointmentForm from './COMPONENTS/VYSETRENIA/AppointmentForm';
+import ReservationForm from './COMPONENTS/VYSETRENIA/ReservationForm';
+import ReservationCreated from './COMPONENTS/VYSETRENIA/ReservationCreated';
+import LeafletPartner from './COMPONENTS/LEAFLET/LeafletPartner';
 
 export default function App() {
   const [showLetakPartner, setShowLetakPartner] = useState(false);

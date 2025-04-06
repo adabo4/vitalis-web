@@ -3,7 +3,7 @@ import dataReservations from './dataReservations.json'
 import Card from "./Card"
 import "./reservations.css"
 import "./card.css"
-import Footer from '../Footer/Footer'
+import Footer from '../FOOTER/Footer'
 import { useLocation } from 'react-router-dom'
 
 export default function Reservations() {
