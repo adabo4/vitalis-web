@@ -6,7 +6,7 @@ import { LogoSlider } from './COMPONENTS/Slider/LogoSlider';
 import Discounts from './COMPONENTS/DISCOUNTS/Discounts';
 import News from './COMPONENTS/NEWS/News';
 import Footer from './COMPONENTS/FOOTER/Footer'
-import AboutUs from './COMPONENTS/About/AboutUs'
+import AboutUs from './COMPONENTS/ABOUT/AboutUs'
 import LoyaltyCard from './COMPONENTS/LoyaltyCard/LoyaltyCard';
 import LeafletPartner from './COMPONENTS/LEAFLET/LeafletPartner';
 import Coupons from './COMPONENTS/Coupons/Coupons';
