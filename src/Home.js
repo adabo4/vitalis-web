@@ -1,7 +1,7 @@
 import React from 'react'
 import Billboard from './COMPONENTS/BILLBOARD/Billboard';
 import ContactBonus from './COMPONENTS/ContactBonus/ContactBonus';
-import Dermocentrum from './COMPONENTS/Dermocentrum/Dermocentrum';
+import Dermocentrum from './COMPONENTS/DERMOCENTRUM/Dermocentrum';
 import { LogoSlider } from './COMPONENTS/Slider/LogoSlider';
 import Discounts from './COMPONENTS/DISCOUNTS/Discounts';
 import News from './COMPONENTS/NEWS/News';
