@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.61393dd8.css",
-    "main.js": "/static/js/main.605ba078.js",
+    "main.css": "/static/css/main.56febf7d.css",
+    "main.js": "/static/js/main.03deda92.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
@@ -9,19 +9,23 @@
     "static/media/back_office_comp.jpg": "/static/media/back_office_comp.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/front_office_comp.jpg": "/static/media/front_office_comp.bbfdaab9686d8677d1eb.jpg",
+    "static/media/vichy-sample.png": "/static/media/vichy-sample.767debe59ca14545ad21.png",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
-    "static/media/bioderma.png": "/static/media/bioderma.e3ecd83ac1eb6de83fad.png",
+    "static/media/lrp-sample.png": "/static/media/lrp-sample.cf88ca7475b48af8353d.png",
+    "static/media/bioderma.png": "/static/media/bioderma.5a39bd6b195e81ca3e7b.png",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
-    "static/media/avene.jpg": "/static/media/avene.e16873d08941990bb394.jpg",
-    "static/media/klorane.jpg": "/static/media/klorane.1892aad0dc802d328361.jpg",
+    "static/media/aderma2.jpg": "/static/media/aderma2.40e8e2fec31ac1a92819.jpg",
+    "static/media/avene2.jpg": "/static/media/avene2.2b0fc4b6250488165561.jpg",
+    "static/media/avene.jpg": "/static/media/avene.5485b343a3516555a742.jpg",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
-    "static/media/ducray.jpg": "/static/media/ducray.fce0b6bad81e358a33e7.jpg",
-    "static/media/aderma.jpg": "/static/media/aderma.d6d77ba1e6e7c9feba5b.jpg",
-    "static/media/avene2.jpg": "/static/media/avene2.2184b95d3e36ba53d137.jpg",
+    "static/media/cerave-sample.png": "/static/media/cerave-sample.f8ec951786c809604508.png",
+    "static/media/aderma.jpg": "/static/media/aderma.b83f81fa977b61ac1445.jpg",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
     "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/lg.woff?io9a6k": "/static/media/lg.356a0e9cb064c7a196c6.woff",
     "static/media/lg.ttf?io9a6k": "/static/media/lg.747d038541bfc6bb8ea9.ttf",
+    "static/media/dnimarianne-logo.svg": "/static/media/dnimarianne-logo.46733ded58cfec99d2633944a235e48c.svg",
+    "static/media/arrow.svg": "/static/media/arrow.8273367f4fa2200dc7a8c3811661bd37.svg",
     "static/media/lg.woff2?io9a6k": "/static/media/lg.64b800aa30714fd916dc.woff2",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -30,12 +34,12 @@
     "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "index.html": "/index.html",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
-    "main.61393dd8.css.map": "/static/css/main.61393dd8.css.map",
-    "main.605ba078.js.map": "/static/js/main.605ba078.js.map",
+    "main.56febf7d.css.map": "/static/css/main.56febf7d.css.map",
+    "main.03deda92.js.map": "/static/js/main.03deda92.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61393dd8.css",
-    "static/js/main.605ba078.js"
+    "static/css/main.56febf7d.css",
+    "static/js/main.03deda92.js"
   ]
 }
