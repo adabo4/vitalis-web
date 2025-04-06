@@ -1,5 +1,5 @@
 import React from 'react'
-import Billboard from './COMPONENTS/Billboard/Billboard'
+import Billboard from './COMPONENTS/BILLBOARD/Billboard';
 import ContactBonus from './COMPONENTS/ContactBonus/ContactBonus';
 import Dermocentrum from './COMPONENTS/Dermocentrum/Dermocentrum';
 import { LogoSlider } from './COMPONENTS/Slider/LogoSlider';
