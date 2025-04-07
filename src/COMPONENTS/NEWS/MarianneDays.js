@@ -31,7 +31,7 @@ const MarianneDays = () => {
                     </div></div>
                 <div ref={addToRefs} className="container-text left slide-in pop-in">
                     <img src={marianneLogo} alt="Dni Marianne Logo" />
-                    <p className='date'>11.-24. Apríl</p>
+                    <p className='date'>11.-14. Apríl</p>
                     <p className='text'><span className='red'></span> Nakupujte výhodne <strong>až do pondelka!</strong></p>
                 </div>
 
