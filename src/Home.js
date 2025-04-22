@@ -4,7 +4,6 @@ import ContactBonus from './COMPONENTS/ContactBonus/ContactBonus';
 import Dermocentrum from './COMPONENTS/DERMOCENTRUM/Dermocentrum';
 import { LogoSlider } from './COMPONENTS/Slider/LogoSlider';
 import Discounts from './COMPONENTS/DISCOUNTS/Discounts';
-import News from './COMPONENTS/NEWS/News';
 import Footer from './COMPONENTS/FOOTER/Footer'
 import AboutUs from './COMPONENTS/ABOUT/AboutUs'
 import LoyaltyCard from './COMPONENTS/LoyaltyCard/LoyaltyCard';
@@ -18,7 +17,7 @@ export default function Home({ showPoukazky }) {
         <>
             <Billboard></Billboard>
             <ContactBonus></ContactBonus>
-            <News></News>
+
             <AboutUs></AboutUs>
             {location.pathname === '/letak' && <LeafletPartner />}
             <LoyaltyCard></LoyaltyCard>

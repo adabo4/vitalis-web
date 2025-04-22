@@ -1,7 +1,6 @@
 import React from 'react'
 import "./news.css";
 import useScrollIn from '../helpers/useScrollIn';
-import MarianneDays from "./MarianneDays"
 
 export default function News() {
     const addToRefs = useScrollIn()
@@ -16,7 +15,7 @@ export default function News() {
                         spojená s diagnostikou pleti. Samozrejmosťou budú aj zľavy na každý jeden produkt.
                     </p>
                 </div>
-                <MarianneDays></MarianneDays>
+
             </div>
         </>
     )
