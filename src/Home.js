@@ -10,6 +10,7 @@ import LoyaltyCard from './COMPONENTS/LoyaltyCard/LoyaltyCard';
 import LeafletPartner from './COMPONENTS/LEAFLET/LeafletPartner';
 import Coupons from './COMPONENTS/COUPONS/Coupons';
 import { useLocation } from 'react-router-dom';
+import News from "./COMPONENTS/NEWS/News"
 
 export default function Home({ showPoukazky }) {
     const location = useLocation();
@@ -17,7 +18,7 @@ export default function Home({ showPoukazky }) {
         <>
             <Billboard></Billboard>
             <ContactBonus></ContactBonus>
-
+            <News></News>
             <AboutUs></AboutUs>
             {location.pathname === '/letak' && <LeafletPartner />}
             <LoyaltyCard></LoyaltyCard>
