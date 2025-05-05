@@ -11,8 +11,6 @@ export default function ReservationCreated() {
     const navigate = useNavigate();
     const { appointmentTime, formattedDate, about, price, resFormPathway } = location.state || {};
 
-    console.log(resFormPathway)
-
     useEffect(() => {
         if (resFormPathway !== "/rezervacny-formular") {
             navigate("/vysetrenie")

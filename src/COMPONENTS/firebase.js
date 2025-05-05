@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
-import { getAuth } from "firebase/auth";
+import { getAuth, signInAnonymously, onAuthStateChanged } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
@@ -24,6 +24,20 @@ try {
     console.error("Firebase initialization error", error);
 
 }
+
+onAuthStateChanged(auth, (user) => {
+    if (!user) {
+        signInAnonymously(auth)
+            .then(() => {
+                console.log("Signed in anonymously");
+            })
+            .catch((error) => {
+                console.error("Anonymous sign-in failed", error);
+            });
+    } else {
+        console.log("User already signed in.");
+    }
+});
 
 
 export { db, auth, database };

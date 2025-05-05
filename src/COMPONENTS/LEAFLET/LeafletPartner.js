@@ -40,7 +40,7 @@ export default function LeafletPartner({ openGallery }) {
         plugins={[lgThumbnail, lgZoom, lgShare, lgVideo, lgAutoplay]}>
         {
           IMAGES && IMAGES.map((item, id) =>
-            <button data-lg-size="1240-1750" className="gallery-item" data-src={item.image}>
+            <button key={id} data-lg-size="1240-1750" className="gallery-item" data-src={item.image}>
               <img className="img-responsive" src={item.image} alt={`Strana ${id + 1}`} style={customStyle} /></button>
           )
         }

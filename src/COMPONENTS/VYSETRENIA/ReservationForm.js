@@ -32,7 +32,7 @@ export default function ReservationForm() {
     });
 
     const resFormPathway = location.pathname
-    console.log(resFormPathway)
+
 
     useEffect(() => {
         if (appointmentPathway !== "/rezervacia") {
@@ -240,8 +240,7 @@ export default function ReservationForm() {
                     date2: formattedDate,
                     about,
                     price: price ? price : "Zdarma",
-                    createdAt: new Date(),
-                    secretKey: process.env.REACT_APP_FIREBASE_SECRET_KEY // Add secret key
+                    createdAt: new Date()
                 });
                 openSuccessModal();
                 resetFormState();

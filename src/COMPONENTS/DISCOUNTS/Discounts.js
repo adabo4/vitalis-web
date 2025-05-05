@@ -14,8 +14,8 @@ export default function Discounts() {
                     {
                         discountsimg.map((item, id) => {
                             return (
-                                <div ref={addToRefs} className="one-img slide-in">
-                                    <a key={id} href={item.src} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt}></img></a>
+                                <div key={id} ref={addToRefs} className="one-img slide-in">
+                                    <a href={item.src} target="_blank" rel="noreferrer"><img src={item.url} alt={item.alt}></img></a>
                                 </div>
                             )
                         })
