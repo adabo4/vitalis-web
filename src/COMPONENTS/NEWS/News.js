@@ -16,7 +16,7 @@ export default function News() {
                         spojená s diagnostikou pleti. Samozrejmosťou budú aj zľavy na každý jeden produkt.
                     </p>
                     <div className='terezia'>
-                        <p ref={addToRefs} className='slide-in'>Príďte na špeciálnu promo akciu TEREZIA COMPANY - 17.05.2025 -
+                        <p ref={addToRefs} className='slide-in'>Príďte na špeciálnu promo akciu TEREZIA COMPANY - 20.05.2025 -
                             kde objavíte prírodné produkty pre Vaše zdravie a krásu!
                             Získajte odborné poradenstvo a výhodné zľavy na produkty.
                             Terezia je český výrobca prírodných doplnkov stravy zo zdraviu prospešných húb a rastlín bez konzervačných látok.

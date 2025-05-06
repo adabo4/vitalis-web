@@ -184,14 +184,16 @@
     .terezia {
         flex-direction: column;
 
+
     }
 
     .terezia img {
-        opacity: 0.5;
+        /* opacity: 0.5;
         margin: 0;
         right: 0;
         position: absolute;
-        z-index: 0;
+        z-index: 0; */
+        margin: 0;
     }
 
 
