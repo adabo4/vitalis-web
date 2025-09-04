@@ -5,8 +5,8 @@ const discountsimg = [
         alt: 'Aderma'
     },
     {
-        url: require("../img/DISCOUNTS/avene2.jpg"),
-        src: require("../img/DISCOUNTS/avene2.jpg"),
+        url: require("../img/DISCOUNTS/avene.jpg"),
+        src: require("../img/DISCOUNTS/avene.jpg"),
         alt: 'Avene'
     },
 
@@ -16,9 +16,14 @@ const discountsimg = [
         alt: 'Bioderma'
     },
     {
-        url: require("../img/DISCOUNTS/esthederm.png"),
-        src: require("../img/DISCOUNTS/esthederm.png"),
-        alt: 'Esthederm'
+        url: require("../img/DISCOUNTS/ducray.jpg"),
+        src: require("../img/DISCOUNTS/ducray.jpg"),
+        alt: 'Ducray'
+    },
+    {
+        url: require("../img/DISCOUNTS/klorane.jpg"),
+        src: require("../img/DISCOUNTS/klorane.jpg"),
+        alt: 'Ducray'
     }
 
 ]
