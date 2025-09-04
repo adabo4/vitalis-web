@@ -143,7 +143,7 @@ const AppointmentForm = () => {
 
                                             return (date.getDay() === 0 || date.getDay() === 6);
 
-                                        }, "2024-12-24", "2024-12-25", "2024-12-26", "2025-05-08", "2025-07-05"], locale: Slovak, altInput: true, altFormat: "j. F Y", dateFormat: 'd.m.Y', minDate: 'today', maxDate: new Date().fp_incr(30)
+                                        }, "2025-12-24", "2025-12-25", "2025-12-26", "2025-09-15", "2025-10-09", "2025-10-10"], locale: Slovak, altInput: true, altFormat: "j. F Y", dateFormat: 'd.m.Y', minDate: 'today', maxDate: new Date().fp_incr(30)
                                     }}
                                 />
                             </div>
