@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.86a26bc0.css",
-    "main.js": "/static/js/main.94897aed.js",
+    "main.css": "/static/css/main.e5fe0ebc.css",
+    "main.js": "/static/js/main.1f3ca00c.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
     "static/media/bgImgPressure.png": "/static/media/bgImgPressure.1113891a4b54f85153d0.png",
+    "static/media/vichy_promo.jpg": "/static/media/vichy_promo.80bfab10f5e9f98cf28d.jpg",
     "static/media/back_office_comp.jpg": "/static/media/back_office_comp.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/front_office_comp.jpg": "/static/media/front_office_comp.bbfdaab9686d8677d1eb.jpg",
@@ -29,12 +30,12 @@
     "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "index.html": "/index.html",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
-    "main.86a26bc0.css.map": "/static/css/main.86a26bc0.css.map",
-    "main.94897aed.js.map": "/static/js/main.94897aed.js.map",
+    "main.e5fe0ebc.css.map": "/static/css/main.e5fe0ebc.css.map",
+    "main.1f3ca00c.js.map": "/static/js/main.1f3ca00c.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86a26bc0.css",
-    "static/js/main.94897aed.js"
+    "static/css/main.e5fe0ebc.css",
+    "static/js/main.1f3ca00c.js"
   ]
 }
