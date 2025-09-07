@@ -113,6 +113,27 @@
     line-height: .9em;
 }
 
+/* .photoBox {
+    background: url("../img/back_office_comp2.jpg") no-repeat center center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 39vw;
+    max-height: 800px;
+    min-height: 312px;
+    width: 70%;
+    max-width: 1560px;
+    min-width: 610px;
+    margin-top: 2em;
+} */
+
+/* background-attachment: fixed;
+    height: 30em;
+    width: 80%;
+    border: 1px solid rgba(34, 34, 34, 0.2);
+    box-shadow: 0 0 20px rgba(38, 38, 38, 0.3);
+    margin-top: 2em; */
+
+
 @media screen and (max-width:1400px) {
     .dermo-left {
         margin-right: 0em;

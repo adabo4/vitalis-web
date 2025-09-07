@@ -1,12 +1,13 @@
 .bill-container {
     width: 100%;
-
+    position: relative;
+    z-index: 1;
 }
 
 .bill-background {
-    background-image: url("../img/Lekaren5v8final.jpg");
+    background: url("../img/Lekaren5v8final.jpg") no-repeat center center;
     animation: change 66s infinite;
-    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     height: 50em;
     display: flex;
