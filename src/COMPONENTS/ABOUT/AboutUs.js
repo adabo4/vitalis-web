@@ -35,7 +35,7 @@ export default function AboutUs() {
                     <div className='about-right'>
                         <div ref={addToRefs} className='right1 slide-in'>
                             <p>Ako jediní v širokom okolí máme pre Vás k dispozícii prírodné prípravky tibetskej medicíny značky EPAM, či unikátne produkty
-                                Dedka korenára, akými sú bylinné tekuté koncentráty, oleje, kaše i masti.
+                                Dedka Kořenářa, akými sú bylinné tekuté koncentráty, oleje, kaše i masti.
                             </p>
                             <p>
                                 Keďže sa tesne v našej blízkosti nachádzajú ambulancie diabetológie <br /> a endokrinológie, prispôsobili sme lieky a produkty aj tak, aby sme mohli ihneď vyhovieť požiadavkám pacientov, ktorí ich navštevujú.

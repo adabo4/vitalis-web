@@ -41,6 +41,9 @@ const useScrollIn = (options = { root: null, rootMargin: '0px 0px 0px 0px', thre
                     if (entry.target.classList.contains("rotate")) {
                         entry.target.classList.add("rotate-appear")
                     }
+                    if (entry.target.classList.contains("scale-up-slow")) {
+                        entry.target.classList.add("scale-up-slow-appear")
+                    }
                     if (entry.target.classList.contains("scale-up")) {
                         entry.target.classList.add("scale-up-appear")
 

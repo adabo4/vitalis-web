@@ -35,12 +35,9 @@ export default function News() {
                     </div> */}
 
 
-                    <div className="promo slide-in" ref={addToRefs}>
+                    <div className="promo scale-up-slow" ref={addToRefs}>
                         <img src={promo} alt="Promo poster" />
                     </div>
-
-
-
 
                 </div>
 

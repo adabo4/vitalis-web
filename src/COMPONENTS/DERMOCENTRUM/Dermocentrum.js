@@ -32,8 +32,13 @@ export default function Dermocentrum() {
                         </div>
 
                         <img ref={addToRefs} className='scale-up' src={dermo1} alt=''></img>
+
+
                         {/* <div className="photoBox">
                         </div> */}
+
+
+
 
                     </div>
 

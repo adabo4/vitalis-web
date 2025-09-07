@@ -117,7 +117,7 @@
 .promo {
     width: 450px;
     height: auto;
-    margin: 2rem auto;
+    margin: 4rem auto;
     display: flex;
     align-items: flex-start;
 
@@ -130,11 +130,29 @@
     cursor: pointer;
 }
 
-.promo img:hover {
+/* .promo img:hover {
     transition: 1s ease-in-out;
     transform: scale(1.05);
 
+} */
+
+.scale-up-slow {
+    transition: transform .5s ease-in-out, opacity .5s ease-in-out;
 }
+
+.scale-up-slow.scale-up-slow-appear {
+    transform: scale(1.15);
+    transition: transform 1s ease-in-out;
+
+
+}
+
+.scale-up-slow.scale-final {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
 
 @media screen and (max-width: 1024px) {
     .news {
