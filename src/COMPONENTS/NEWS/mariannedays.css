@@ -252,26 +252,47 @@
 
 @media screen and (max-width: 500px) {
     .container-text.left {
-
-        max-width: 25rem;
-        width: 80%;
-        margin: 2rem auto;
-
-
+        width: 140%;
     }
 
     .container-text.left .date {
         font-size: 1.2rem;
+        width: 95%;
+        text-align: center;
     }
 
     .container-text.left .text {
-        width: 100%;
         font-size: 1rem;
+
     }
 
     .empty {
         width: 15rem;
         height: 15rem;
         margin: 1em auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container-text.left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .container-text.left .date {
+        text-align: center;
+        font-size: 1.1rem;
+        width: 80%;
+
+    }
+
+    .container-text.left .text {
+        text-align: center;
+        font-size: 1rem;
+        margin: auto;
     }
 }
