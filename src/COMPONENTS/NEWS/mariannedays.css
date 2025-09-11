@@ -29,6 +29,13 @@
     margin: 2rem;
 }
 
+.container-text.right {
+    width: 15rem;
+
+}
+
+
+
 .container-text img {
     max-width: 20rem;
     width: 100%;
@@ -64,9 +71,11 @@
 
 }
 
-.right-text {
-    font-size: 1.2rem;
+.container-text .right-text {
+    font-size: 1.1rem;
     font-weight: 500;
+    width: 200px;
+    margin: auto;
 }
 
 .container-text .text .red {

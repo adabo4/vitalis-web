@@ -31,8 +31,8 @@ const MarianneDays = () => {
                     </div></div>
                 <div ref={addToRefs} className="container-text left slide-in pop-in">
                     <img src={marianneLogo} alt="Dni Marianne Logo" />
-                    <p className='date'>12.-15. September</p>
-                    <p className='text'><span className='red'></span> Nakupujte výhodne <strong>až do pondelka!</strong></p>
+                    <p className='date'>15. - 19. September</p>
+                    <p className='text'><span className='red'></span> Nakupujte výhodne <strong>až do piatku!</strong></p>
                 </div>
 
                 <div ref={addToRefs} className="svg-container">
@@ -42,7 +42,7 @@ const MarianneDays = () => {
                 <div className='grid-layout'>
                     <div className="item vichy"><img src={vichy} alt="" /></div>
                     <div className="item text">
-                        <div ref={addToRefs} className="container-text slide-in pop-in">
+                        <div ref={addToRefs} className="container-text right slide-in pop-in">
                             <p className='right-text'>Akcia 2+1 na vybrané značky kozmetiky
                                 Cerave, La Roche-Posay a Vichy </p>
 

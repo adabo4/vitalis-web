@@ -1,5 +1,6 @@
 import "./news.css";
 import useScrollIn from '../helpers/useScrollIn'
+import MarianneDays from "./MarianneDays"
 import promo from "../img/vichy_promo.jpg"
 export default function News() {
     const addToRefs = useScrollIn()
@@ -38,6 +39,8 @@ export default function News() {
                     <div className="promo scale-up-slow" ref={addToRefs}>
                         <img src={promo} alt="Promo poster" />
                     </div>
+
+                    <MarianneDays></MarianneDays>
 
                 </div>
 
