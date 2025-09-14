@@ -26,8 +26,20 @@ export default function LoyaltyCard() {
 
                 <div className='loyalty__card-right'>
                     <div className='loyalty__card-images'>
-                        <img ref={addToRefs} className="rotate" src={cardimgFront} alt='' />
-                        <img ref={addToRefs} className='rotate' src={cardimgBack} alt='' />
+                        <img
+                            ref={addToRefs}
+                            className="rotate"
+                            src={cardimgFront}
+                            alt='Vernostná karta Lekáreň Vitalis - predná strana'
+                            title='Vernostná karta Lekáreň Vitalis - zbierajte body za každý nákup'
+                        />
+                        <img
+                            ref={addToRefs}
+                            className='rotate'
+                            src={cardimgBack}
+                            alt='Vernostná karta Lekáreň Vitalis - zadná strana s podmienkami'
+                            title='Vernostná karta Lekáreň Vitalis - zadná strana s informáciami o bodoch'
+                        />
                     </div>
                     <ul ref={addToRefs} className='slide-up'>
                         <li>S vernostnou kartou zbierate body za každý nákup.</li>

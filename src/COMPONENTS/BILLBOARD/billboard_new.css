@@ -1,0 +1,163 @@
+.bill-container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.bill-background {
+    position: relative;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.bill-parallax-image {
+    position: absolute;
+    top: -19%;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    will-change: transform;
+}
+
+.bill-image-1 {
+    animation: fadeInOut1 66s infinite;
+}
+
+.bill-image-2 {
+    animation: fadeInOut2 66s infinite;
+
+}
+
+.bill-info {
+    text-align: center;
+    margin-bottom: 3em;
+    background-color: rgba(255, 255, 255, 0.844);
+    border-top: 5px solid rgb(64, 187, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    flex-wrap: wrap;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: 0 0 30px black;
+}
+
+.bill-info p {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-bottom: 15px;
+
+}
+
+.bill-info h1 {
+    line-height: normal;
+    text-shadow: 0 0 15px rgba(16, 16, 16, 0.407);
+
+}
+
+.bill-info h2 {
+    background-color: rgb(64, 187, 192);
+    color: aliceblue;
+    font-size: 1.1em;
+    border-radius: 4px;
+    padding: .1em .6em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+.bill-info h2:hover {
+    background-color: aliceblue;
+    color: rgb(64, 187, 192);
+    transition: .3s linear;
+}
+
+@media screen and (max-width: 1000px) {
+    .bill-container {
+        margin-top: 2rem;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+
+
+    .bill-container {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .bill-info h1 {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .bill-info p {
+        font-size: .9em;
+    }
+
+    .bill-info {
+        margin-bottom: 8em;
+    }
+
+}
+
+@keyframes fadeInOut1 {
+
+    0%,
+    10%,
+    30%,
+    50%,
+    70%,
+    90%,
+    100% {
+        opacity: 1;
+    }
+
+    5%,
+    15%,
+    25%,
+    35%,
+    45%,
+    55%,
+    65%,
+    75%,
+    85%,
+    95% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInOut2 {
+
+    0%,
+    10%,
+    30%,
+    50%,
+    70%,
+    90%,
+    100% {
+        opacity: 0;
+    }
+
+    5%,
+    15%,
+    25%,
+    35%,
+    45%,
+    55%,
+    65%,
+    75%,
+    85%,
+    95% {
+        opacity: 1;
+    }
+}

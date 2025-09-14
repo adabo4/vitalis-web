@@ -30,7 +30,11 @@ const MarianneDays = () => {
                     <div className="empty">
                     </div></div>
                 <div ref={addToRefs} className="container-text left slide-in pop-in">
-                    <img src={marianneLogo} alt="Dni Marianne Logo" />
+                    <img
+                        src={marianneLogo}
+                        alt="Dni Marianne logo - špeciálna akcia v Lekárni Vitalis"
+                        title="Dni Marianne - výhodné nákupy kozmetiky 15.-19. September"
+                    />
                     <p className='date'>15. - 19. September</p>
                     <p className='text'><span className='red'></span> Nakupujte výhodne <strong>až do piatku!</strong></p>
                 </div>
@@ -40,7 +44,13 @@ const MarianneDays = () => {
                 </div>
 
                 <div className='grid-layout'>
-                    <div className="item vichy"><img src={vichy} alt="" /></div>
+                    <div className="item vichy">
+                        <img
+                            src={vichy}
+                            alt="Vichy vzorky kozmetiky - Dni Marianne akcia 2+1"
+                            title="Vichy - termálna kozmetika v akcii 2+1 na Dňoch Marianne"
+                        />
+                    </div>
                     <div className="item text">
                         <div ref={addToRefs} className="container-text right slide-in pop-in">
                             <p className='right-text'>Akcia 2+1 na vybrané značky kozmetiky
@@ -49,7 +59,13 @@ const MarianneDays = () => {
                         </div>
                     </div>
 
-                    <div className="item cerave"><img src={cerave} alt="" /></div>
+                    <div className="item cerave">
+                        <img
+                            src={cerave}
+                            alt="CeraVe vzorky kozmetiky - Dni Marianne akcia 2+1"
+                            title="CeraVe - dermatologická starostlivosť v akcii 2+1 na Dňoch Marianne"
+                        />
+                    </div>
                     <div className="item lrp-cont">
                         <div className="lrp"></div>
                     </div>
