@@ -13,6 +13,9 @@ import AppointmentForm from './COMPONENTS/VYSETRENIA/AppointmentForm';
 import ReservationForm from './COMPONENTS/VYSETRENIA/ReservationForm';
 import ReservationCreated from './COMPONENTS/VYSETRENIA/ReservationCreated';
 import LeafletPartner from './COMPONENTS/LEAFLET/LeafletPartner';
+import { useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import { getSEOData } from './utils/seoData';
 
 export default function App() {
   const [showLetakPartner, setShowLetakPartner] = useState(false);
@@ -21,8 +24,15 @@ export default function App() {
   const GoogleAnalyticsID = process.env.REACT_APP_GOOGLE_ANALYTICS_ID;
   const [openGallery, setOpenGallery] = useState(false);
 
+  const location = useLocation();
+  const { title, description } = getSEOData(location.pathname);
+
   return (
     <div className="App">
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Helmet>
       <GoogleAnalytics GA_MEASUREMENT_ID={GoogleAnalyticsID} />
       {showBanner && <CookieBanner setShowBanner={setShowBanner} />}
       <TopNav></TopNav>
