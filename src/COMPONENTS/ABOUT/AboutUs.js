@@ -29,7 +29,7 @@ export default function AboutUs() {
                                 Naša ponuka liekov a doplnkov je neustále aktualizovaná, aby sme vedeli uspokojiť čo najväčší okruh pacientov.
                             </p>
                         </div>
-                        <img src={onas} alt=''></img>
+                        <img src={onas} alt='Lekáreň Vitalis Trnava interiér'></img>
                     </div>
 
                     <div className='about-right'>

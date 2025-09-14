@@ -2,28 +2,28 @@ const discountsimg = [
     {
         url: require("../img/DISCOUNTS/aderma.jpg"),
         src: require("../img/DISCOUNTS/aderma.jpg"),
-        alt: 'Aderma'
+        alt: 'Akcia na kozmetiku Aderma – Trnava, Lekáreň Vitalis"'
     },
     {
         url: require("../img/DISCOUNTS/avene.jpg"),
         src: require("../img/DISCOUNTS/avene.jpg"),
-        alt: 'Avene'
+        alt: 'Akcia na kozmetiku Avène – Trnava, Lekáreň Vitalis"'
     },
 
     {
         url: require("../img/DISCOUNTS/bioderma.png"),
         src: require("../img/DISCOUNTS/bioderma.png"),
-        alt: 'Bioderma'
+        alt: 'Akcia na kozmetiku Bioderma – Trnava, Lekáreň Vitalis"'
     },
     {
         url: require("../img/DISCOUNTS/ducray.jpg"),
         src: require("../img/DISCOUNTS/ducray.jpg"),
-        alt: 'Ducray'
+        alt: 'Akcia na kozmetiku Ducray – Trnava, Lekáreň Vitalis"'
     },
     {
         url: require("../img/DISCOUNTS/klorane.jpg"),
         src: require("../img/DISCOUNTS/klorane.jpg"),
-        alt: 'Ducray'
+        alt: 'Akcia na kozmetiku Ducray – Trnava, Lekáreň Vitalis"'
     }
 
 ]
