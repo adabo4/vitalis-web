@@ -111,20 +111,14 @@
 
 .footer-right p,
 .footer-right h3,
-.footer-right h1,
+.footer-address,
 .footer-right h2 {
     line-height: .1em;
     font-family: 'Poppins', sans-serif;
     padding: 20px 0 20px;
 }
 
-.footer-right h1 {
-    font-style: italic;
-    font-size: 1.5em;
-    padding: 20px 0 20px;
 
-
-}
 
 .footer-right p,
 h3 {
@@ -141,7 +135,7 @@ h3 {
     align-self: flex-start;
 }
 
-.footer-right h2 {
+.footer-healine {
     font-size: 1.1em;
     padding: 20px 0 20px;
 }

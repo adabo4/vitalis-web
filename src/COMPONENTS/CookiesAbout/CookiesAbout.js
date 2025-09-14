@@ -77,7 +77,7 @@ export default function CookiesAbout({ setShowBanner }) {
 
             <div className="cookies-info">
                 <div className='cookies-info-top'>
-                    <h1>Informácie o spracúvaní súborov cookies</h1>
+                    <h2 className='cookies-headline'>Informácie o spracúvaní súborov cookies</h2>
                     <img className='title-underline' src={titleUnderline} alt="Title Underline" />
 
                     <p>V zmysle Nariadenia Európskeho parlamentu a Rady (EÚ) 2016/679 z 27. apríla 2016 o ochrane fyzických osôb pri spracúvaní osobných údajov, ktorým sa zrušuje smernica 95/46/ES (ďalej len „všeobecné nariadenie o ochrane údajov") a zákona č. 18/2018 Z. z. o ochrane osobných údajov a o zmene a doplnení niektorých zákonov (ďalej len „zákon o ochrane osobných údajov") uvádzame, že naša webová stránka https://www.lekarenvitalis.sk/ používa technológiu cookies.</p>
@@ -86,12 +86,12 @@ export default function CookiesAbout({ setShowBanner }) {
                 <div className="cookies-info-center">
                     <div className="cookies-info-left">
                         <div className="coo">
-                            <h2>Čo je to Cookie?</h2>
+                            <h2 className='cookies-sub-headline'>Čo je to Cookie?</h2>
                             <LiaCookieSolid className='cookie-icon' />
                         </div>
                         <p>Cookie je krátky textový súbor, ktorý sa po navštívení našej webovej stránky uloží na pevný disk počítača alebo na iné zariadenie. Webovým stránkam umožňuje napríklad zapamätať si informácie o vašej návšteve, preferovaný jazyk a ďalšie nastavenia.</p>
                         <LiaCookieSolid className='cookie-icon-right' />
-                        <h2>Naša webová stránka využíva nasledovné cookies:</h2>
+                        <h2 className='cookies-sub-headline'>Naša webová stránka využíva nasledovné cookies:</h2>
                         <p>Analytické cookies, ktoré slúžia pre anonymný zber dát zákazníckeho správania na webe www.lekarenvitalis.sk spoločnosti LEKAMED spol. s.r.o. a neobsahujú osobné údaje. Tieto cookies sú zbierané až po udelení súhlasu zo strany užívateľa webovej stránky spoločnosti LEKAMED spol. s.r.o.</p>
 
                     </div>

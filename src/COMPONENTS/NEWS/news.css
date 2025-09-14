@@ -25,7 +25,7 @@
 
 }
 
-.news-header h1,
+.news-header h2,
 .heading {
 
     border-bottom: 3px solid rgb(64, 187, 192);
@@ -33,6 +33,7 @@
     margin: 50px;
     text-align: center;
     line-height: .9em;
+    font-size: 2em;
 
 
 

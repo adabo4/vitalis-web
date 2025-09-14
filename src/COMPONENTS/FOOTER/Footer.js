@@ -121,7 +121,7 @@ export default function Footer() {
           </iframe>
 
           <div className='footer-right'>
-            <h1><AiOutlineHome /> Trhová 7435/4, 917 01 Trnava  </h1>
+            <h2 className='footer-address'><AiOutlineHome /> Trhová 7435/4, 917 01 Trnava  </h2>
             <h3>Otvorené: Pondelok - Piatok: 8:00 - 17:00 </h3>
             <p> Telefón: <a href='tel:033/ 593 60 43'>033/ 593 60 43</a> </p>
             <p> Dermocentrum: <a href='tel:033/ 544 55 46'>033/ 544 55 46</a> </p>
@@ -130,7 +130,7 @@ export default function Footer() {
               <a href='https://www.facebook.com/profile.php?id=100057504068840' target='blank' ><BsFacebook /></a>
             </div>
 
-            <h2>Kontaktujte nás</h2>
+            <h2 className='footer-headline'>Kontaktujte nás</h2>
 
             <form className='formular' ref={form} onSubmit={sendEmail}>
               <div className='form-inputs'>

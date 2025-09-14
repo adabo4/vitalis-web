@@ -8,7 +8,7 @@ export default function Discounts() {
         <div className='akcie-container' id='discounts'>
             <div className='discounts-container'>
                 <div className='discounts-header'>
-                    <h1>AKTUÁLNE ZĽAVY</h1>
+                    <h2>AKTUÁLNE ZĽAVY</h2>
                 </div>
                 <div className="discounts-images">
                     {

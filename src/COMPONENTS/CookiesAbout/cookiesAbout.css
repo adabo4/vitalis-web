@@ -39,19 +39,19 @@
 
 
 
-.cookies-info h1 {
+.cookies-headline {
     text-align: center;
     margin-top: 1em;
 }
 
-.cookies-info h2 {
+.cookies-sub-headline {
     line-height: 1.6em;
     padding: 0.5em .5em;
     position: relative;
 
 }
 
-.cookies-info h2:after {
+.cookies-sub-headline:after {
     content: "";
     height: 5px;
     width: 0;
@@ -63,7 +63,7 @@
 
 }
 
-.cookies-info h2:hover:after {
+.cookies-sub-headline:hover:after {
     width: 90%;
 
 

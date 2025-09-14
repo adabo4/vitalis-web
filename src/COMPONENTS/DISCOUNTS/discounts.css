@@ -9,13 +9,14 @@
 
 }
 
-.discounts-header h1 {
+.discounts-header h2 {
 
     border-bottom: 3px solid rgb(64, 187, 192);
     padding-bottom: 0.1em;
     margin: 50px;
     text-align: center;
     line-height: .9em;
+    font-size: 2em;
 
 
 
@@ -100,10 +101,19 @@
 
 @media screen and (max-width:500px) {
 
-    .discounts-header h1 {
+    .discounts-header h2 {
         font-size: 1.5em;
-
-
     }
+
+}
+
+@media screen and (max-width:350px) {
+
+    .discounts-images .one-img {
+        width: 15em;
+        height: 15em;
+    }
+
+
 
 }

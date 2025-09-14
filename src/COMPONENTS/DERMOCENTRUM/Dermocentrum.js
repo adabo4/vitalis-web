@@ -58,7 +58,7 @@ export default function Dermocentrum() {
                     </div>
                     <div className="brands-container">
                         <div className='brands-title'>
-                            <h1>NAŠE ZNAČKY</h1>
+                            <h2>NAŠE ZNAČKY</h2>
                         </div>
                     </div>
                 </div>
