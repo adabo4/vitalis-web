@@ -1,6 +1,5 @@
 import "./news.css";
 import useScrollIn from '../helpers/useScrollIn'
-import MarianneDays from "./MarianneDays"
 export default function News() {
     const addToRefs = useScrollIn()
     return (
