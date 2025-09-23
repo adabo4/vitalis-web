@@ -38,7 +38,6 @@ export default function News() {
                         />
                     </div> */}
 
-                    <MarianneDays></MarianneDays>
 
                 </div>
 
