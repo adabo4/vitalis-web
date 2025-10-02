@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1c7bfefb.css",
-    "main.js": "/static/js/main.26850c6a.js",
+    "main.js": "/static/js/main.163933c2.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
@@ -10,13 +10,13 @@
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/front_office_comp.jpg": "/static/media/front_office_comp.bbfdaab9686d8677d1eb.jpg",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
-    "static/media/bioderma.png": "/static/media/bioderma.2e8d1cd1fc9414cf4372.png",
+    "static/media/bioderma.png": "/static/media/bioderma.8cfbb9857eddc9ff155b.png",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
     "static/media/klorane.jpg": "/static/media/klorane.ab692701817eebcf8c7a.jpg",
-    "static/media/avene.jpg": "/static/media/avene.8be59da8cb7267a8a52a.jpg",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
     "static/media/ducray.jpg": "/static/media/ducray.d3206f38d54d0c8ba3c1.jpg",
-    "static/media/aderma.jpg": "/static/media/aderma.9e9180a302bf38d20dba.jpg",
+    "static/media/avene.jpg": "/static/media/avene.b9b9b196e9023f921773.jpg",
+    "static/media/aderma.jpg": "/static/media/aderma.d6509e50276dfc9dcd3e.jpg",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
     "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/lg.woff?io9a6k": "/static/media/lg.356a0e9cb064c7a196c6.woff",
@@ -30,11 +30,11 @@
     "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
     "main.1c7bfefb.css.map": "/static/css/main.1c7bfefb.css.map",
-    "main.26850c6a.js.map": "/static/js/main.26850c6a.js.map",
+    "main.163933c2.js.map": "/static/js/main.163933c2.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c7bfefb.css",
-    "static/js/main.26850c6a.js"
+    "static/js/main.163933c2.js"
   ]
 }
