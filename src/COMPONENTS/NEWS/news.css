@@ -165,13 +165,13 @@
         width: 100%;
     }
 
-    /* .terezia {
+    .terezia {
 
         align-items: center;
         width: 100%;
         flex: 1;
 
-    } */
+    }
 
 
 
@@ -223,7 +223,7 @@
         width: 100%;
     }
 
-    /* .terezia {
+    .terezia {
         flex-direction: column;
 
 
@@ -231,7 +231,7 @@
 
     .terezia img {
         margin: 0;
-    } */
+    }
 
     .promo {
         width: 100%;

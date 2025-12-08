@@ -1,5 +1,6 @@
 import "./news.css";
 import useScrollIn from '../helpers/useScrollIn'
+import tereziaimg from "../img/terezia.jpg"
 export default function News() {
     const addToRefs = useScrollIn()
     return (
@@ -13,6 +14,14 @@ export default function News() {
                     <p ref={addToRefs} className='new slide-in'>Dňa <b>24.11.2025</b> od 10:00 - 16:00 hod. bude v Dermocentre Vitalis prebiehať PROMO AKCIA na kozmetiku Avène, A-Derma, Ducray a Klorane,
                         spojená s diagnostikou pleti. Samozrejmosťou budú aj zľavy na každý jeden produkt.
                     </p>
+                    <div className='terezia'>
+                        <p ref={addToRefs} className='slide-in'>Príďte na špeciálnu promo akciu TEREZIA COMPANY - 22.12.2025 -
+                            kde objavíte prírodné produkty pre Vaše zdravie a krásu!
+                            Získajte odborné poradenstvo a výhodné zľavy na produkty.
+                            Terezia Company je český výrobca prírodných doplnkov stravy zo zdraviu prospešných húb a rastlín bez konzervačných látok.
+                        </p>
+                        <img src={tereziaimg} alt="Terezia Company" />
+                    </div>
                     {/* <div className='terezia'>
                         <p ref={addToRefs} className='slide-in'>Príďte na špeciálnu promo akciu TEREZIA COMPANY - 20.05.2025 -
                             kde objavíte prírodné produkty pre Vaše zdravie a krásu!
@@ -20,15 +29,7 @@ export default function News() {
                             Terezia je český výrobca prírodných doplnkov stravy zo zdraviu prospešných húb a rastlín bez konzervačných látok.
                         </p>
                         <img src={tereziaimg} alt="Terezia Company" />
-                    </div> */}
-                    {/* <div className='terezia'>
-                        <p ref={addToRefs} className='slide-in'>Príďte na špeciálnu promo akciu TEREZIA COMPANY - 20.05.2025 -
-                            kde objavíte prírodné produkty pre Vaše zdravie a krásu!
-                            Získajte odborné poradenstvo a výhodné zľavy na produkty.
-                            Terezia je český výrobca prírodných doplnkov stravy zo zdraviu prospešných húb a rastlín bez konzervačných látok.
-                        </p>
-                        <img src={tereziaimg} alt="Terezia Company" />
-                    </div> */}
+                    </div>
                     {/* <div className="promo scale-up-slow" ref={addToRefs}>
                         <img
                             src={promo}
