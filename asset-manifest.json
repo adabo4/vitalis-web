@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4769c158.css",
-    "main.js": "/static/js/main.db8189f3.js",
+    "main.css": "/static/css/main.1a2d32df.css",
+    "main.js": "/static/js/main.15675bf0.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
@@ -16,6 +16,7 @@
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
     "static/media/ducray.webp": "/static/media/ducray.fc577f3bf5ab628b5f4e.webp",
     "static/media/aderma.webp": "/static/media/aderma.2af5bdbbadb89c0220ae.webp",
+    "static/media/terezia.jpg": "/static/media/terezia.68a41cb49ed475b1f28a.jpg",
     "static/media/avene.webp": "/static/media/avene.c7851802bf25aa4395a3.webp",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
@@ -30,12 +31,12 @@
     "index.html": "/index.html",
     "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
-    "main.4769c158.css.map": "/static/css/main.4769c158.css.map",
-    "main.db8189f3.js.map": "/static/js/main.db8189f3.js.map",
+    "main.1a2d32df.css.map": "/static/css/main.1a2d32df.css.map",
+    "main.15675bf0.js.map": "/static/js/main.15675bf0.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4769c158.css",
-    "static/js/main.db8189f3.js"
+    "static/css/main.1a2d32df.css",
+    "static/js/main.15675bf0.js"
   ]
 }
