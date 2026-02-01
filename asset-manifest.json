@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.1a2d32df.css",
-    "main.js": "/static/js/main.09141273.js",
+    "main.js": "/static/js/main.4053056b.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
     "static/media/bgImgPressure.png": "/static/media/bgImgPressure.1113891a4b54f85153d0.png",
+    "static/media/bioderma.webp": "/static/media/bioderma.bc1f53ed35ce45d4d5a4.webp",
     "static/media/back_office_comp.jpg": "/static/media/back_office_comp.bd5f1d12cc4c54c65c19.jpg",
     "static/media/Lekaren5v8final.jpg": "/static/media/Lekaren5v8final.e8c9c486a869f7f8a33d.jpg",
     "static/media/front_office_comp.jpg": "/static/media/front_office_comp.bbfdaab9686d8677d1eb.jpg",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
-    "static/media/bioderma.webp": "/static/media/bioderma.d2f9f5dc1d6feb38e930.webp",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
     "static/media/klorane.webp": "/static/media/klorane.74e09ca0d2c5b6497d62.webp",
-    "static/media/avene.webp": "/static/media/avene.ca6d9119bee1b0441550.webp",
     "static/media/ducray.webp": "/static/media/ducray.ed07436457fe48b0c489.webp",
+    "static/media/avene.webp": "/static/media/avene.dc8b0d09433649d0a70b.webp",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
     "static/media/aderma.webp": "/static/media/aderma.bb6c1039125f62d59c54.webp",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
@@ -30,11 +30,11 @@
     "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
     "main.1a2d32df.css.map": "/static/css/main.1a2d32df.css.map",
-    "main.09141273.js.map": "/static/js/main.09141273.js.map",
+    "main.4053056b.js.map": "/static/js/main.4053056b.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a2d32df.css",
-    "static/js/main.09141273.js"
+    "static/js/main.4053056b.js"
   ]
 }
