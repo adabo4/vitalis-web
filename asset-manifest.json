@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1a2d32df.css",
-    "main.js": "/static/js/main.4053056b.js",
+    "main.js": "/static/js/main.83734adc.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
@@ -12,11 +12,11 @@
     "static/media/front_office_comp.jpg": "/static/media/front_office_comp.bbfdaab9686d8677d1eb.jpg",
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
-    "static/media/klorane.webp": "/static/media/klorane.74e09ca0d2c5b6497d62.webp",
-    "static/media/ducray.webp": "/static/media/ducray.ed07436457fe48b0c489.webp",
+    "static/media/vichy.webp": "/static/media/vichy.6d3a431b699619977d59.webp",
     "static/media/avene.webp": "/static/media/avene.dc8b0d09433649d0a70b.webp",
+    "static/media/cerave.webp": "/static/media/cerave.a7ef2a934b65e758ec12.webp",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
-    "static/media/aderma.webp": "/static/media/aderma.bb6c1039125f62d59c54.webp",
+    "static/media/lrp.webp": "/static/media/lrp.f556bbbc8857a475c41d.webp",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
     "static/media/lg.svg?io9a6k": "/static/media/lg.09cd8e9be7081f216644.svg",
     "static/media/lg.woff?io9a6k": "/static/media/lg.356a0e9cb064c7a196c6.woff",
@@ -30,11 +30,11 @@
     "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
     "main.1a2d32df.css.map": "/static/css/main.1a2d32df.css.map",
-    "main.4053056b.js.map": "/static/js/main.4053056b.js.map",
+    "main.83734adc.js.map": "/static/js/main.83734adc.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a2d32df.css",
-    "static/js/main.4053056b.js"
+    "static/js/main.83734adc.js"
   ]
 }
