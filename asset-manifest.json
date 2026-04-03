@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1a2d32df.css",
-    "main.js": "/static/js/main.c4cba770.js",
+    "main.js": "/static/js/main.e5effaf1.js",
     "static/js/787.1df10f84.chunk.js": "/static/js/787.1df10f84.chunk.js",
     "static/media/bgImgVirus.png": "/static/media/bgImgVirus.1ba7b3a482df35a17947.png",
     "static/media/bgImg.png": "/static/media/bgImg.99c2deb1ad6f7754ce60.png",
@@ -12,8 +12,8 @@
     "static/media/Dizajn bez názvu (14).png": "/static/media/Dizajn bez názvu (14).a6708a366a8b889a9297.png",
     "static/media/Vitalis_logogood-removebg-preview.png": "/static/media/Vitalis_logogood-removebg-preview.9802836629b09bbeb09a.png",
     "static/media/karticka_2_comp.png": "/static/media/karticka_2_comp.4ed02c8ea60c8a802e5e.png",
-    "static/media/ducray.webp": "/static/media/ducray.d204689ae141d66ed338.webp",
-    "static/media/klorane.webp": "/static/media/klorane.732e3b1ef34b44f49451.webp",
+    "static/media/aderma2.webp": "/static/media/aderma2.9a7650a37036459ff1da.webp",
+    "static/media/avene2.webp": "/static/media/avene2.88380b452443c75c1ed7.webp",
     "static/media/avene.webp": "/static/media/avene.a45327810c3eec84b506.webp",
     "static/media/aderma.webp": "/static/media/aderma.336cb392420db4e78b2b.webp",
     "static/media/kartickaof2-min.jpg": "/static/media/kartickaof2-min.1b174cfcf4cdecf9b64c.jpg",
@@ -29,11 +29,11 @@
     "static/media/down-arrow.svg": "/static/media/down-arrow.2a9fba4b0cc70a4adb41.svg",
     "static/media/backgroundImg.svg": "/static/media/backgroundImg.925c20839c4182edaedf.svg",
     "main.1a2d32df.css.map": "/static/css/main.1a2d32df.css.map",
-    "main.c4cba770.js.map": "/static/js/main.c4cba770.js.map",
+    "main.e5effaf1.js.map": "/static/js/main.e5effaf1.js.map",
     "787.1df10f84.chunk.js.map": "/static/js/787.1df10f84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a2d32df.css",
-    "static/js/main.c4cba770.js"
+    "static/js/main.e5effaf1.js"
   ]
 }
