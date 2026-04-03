@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Coupons() {
     const coupons = [
         {
-            src: "../coupons/poukazka1.jpg"
+            src: "../coupons/poukazka1.webp"
         },
         {
             src: "../coupons/poukazka2.png"
